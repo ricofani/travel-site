@@ -1,0 +1,3057 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'autoprefixer',
+1 verbose cli   '--save-dev' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData autoprefixer
+8 silly fetchNamedPackageData autoprefixer
+9 silly mapToRegistry name autoprefixer
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer
+13 verbose request uri https://registry.npmjs.org/autoprefixer
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 10:23:02 PM
+16 verbose request id 3bbc1093abf1a92f
+17 http request GET https://registry.npmjs.org/autoprefixer
+18 http 200 https://registry.npmjs.org/autoprefixer
+19 verbose headers { server: 'nginx/1.10.1',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'last-modified': 'Sat, 17 Dec 2016 13:00:50 GMT',
+19 verbose headers   etag: 'W/"58553702-2c356"',
+19 verbose headers   'content-encoding': 'gzip',
+19 verbose headers   'cache-control': 'max-age=300',
+19 verbose headers   'content-length': '20016',
+19 verbose headers   'accept-ranges': 'bytes',
+19 verbose headers   date: 'Tue, 20 Dec 2016 21:23:02 GMT',
+19 verbose headers   via: '1.1 varnish',
+19 verbose headers   age: '37',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'x-served-by': 'cache-hhn1533-HHN',
+19 verbose headers   'x-cache': 'HIT',
+19 verbose headers   'x-cache-hits': '1',
+19 verbose headers   'x-timer': 'S1482268982.341029,VS0,VE0',
+19 verbose headers   vary: 'Accept-Encoding' }
+20 silly get cb [ 200,
+20 silly get   { server: 'nginx/1.10.1',
+20 silly get     'content-type': 'application/json',
+20 silly get     'last-modified': 'Sat, 17 Dec 2016 13:00:50 GMT',
+20 silly get     etag: 'W/"58553702-2c356"',
+20 silly get     'content-encoding': 'gzip',
+20 silly get     'cache-control': 'max-age=300',
+20 silly get     'content-length': '20016',
+20 silly get     'accept-ranges': 'bytes',
+20 silly get     date: 'Tue, 20 Dec 2016 21:23:02 GMT',
+20 silly get     via: '1.1 varnish',
+20 silly get     age: '37',
+20 silly get     connection: 'keep-alive',
+20 silly get     'x-served-by': 'cache-hhn1533-HHN',
+20 silly get     'x-cache': 'HIT',
+20 silly get     'x-cache-hits': '1',
+20 silly get     'x-timer': 'S1482268982.341029,VS0,VE0',
+20 silly get     vary: 'Accept-Encoding' } ]
+21 verbose get saving autoprefixer to /home/rico/.npm/registry.npmjs.org/autoprefixer/.cache.json
+22 silly install normalizeTree
+23 silly loadCurrentTree Finishing
+24 silly loadIdealTree Starting
+25 silly install loadIdealTree
+26 silly cloneCurrentTree Starting
+27 silly install cloneCurrentTreeToIdealTree
+28 silly cloneCurrentTree Finishing
+29 silly loadShrinkwrap Starting
+30 silly install loadShrinkwrap
+31 silly loadShrinkwrap Finishing
+32 silly loadAllDepsIntoIdealTree Starting
+33 silly install loadAllDepsIntoIdealTree
+34 silly resolveWithNewModule autoprefixer@6.5.4 checking installable status
+35 silly cache add args [ 'autoprefixer', null ]
+36 verbose cache add spec autoprefixer
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'autoprefixer',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'autoprefixer',
+37 silly cache add   rawSpec: '',
+37 silly cache add   spec: 'latest',
+37 silly cache add   type: 'tag' }
+38 silly addNamed autoprefixer@latest
+39 verbose addNamed "latest" is being treated as a dist-tag for autoprefixer
+40 info addNameTag [ 'autoprefixer', 'latest' ]
+41 silly mapToRegistry name autoprefixer
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer
+45 verbose addNameTag registry:https://registry.npmjs.org/autoprefixer not in flight; fetching
+46 verbose get https://registry.npmjs.org/autoprefixer not expired, no request
+47 silly addNameTag next cb for autoprefixer with tag latest
+48 silly addNamed autoprefixer@6.5.4
+49 verbose addNamed "6.5.4" is a plain semver version for autoprefixer
+50 silly mapToRegistry name autoprefixer
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer
+54 verbose addRemoteTarball https://registry.npmjs.org/autoprefixer/-/autoprefixer-6.5.4.tgz not in flight; adding
+55 verbose addRemoteTarball [ 'https://registry.npmjs.org/autoprefixer/-/autoprefixer-6.5.4.tgz',
+55 verbose addRemoteTarball   '1386eb6708ccff36aefff70adc694ecfd60af1b0' ]
+56 info retry fetch attempt 1 at 10:23:03 PM
+57 info attempt registry request try #1 at 10:23:03 PM
+58 http fetch GET https://registry.npmjs.org/autoprefixer/-/autoprefixer-6.5.4.tgz
+59 http fetch 200 https://registry.npmjs.org/autoprefixer/-/autoprefixer-6.5.4.tgz
+60 silly fetchAndShaCheck shasum 1386eb6708ccff36aefff70adc694ecfd60af1b0
+61 verbose addTmpTarball /tmp/npm-2716-56d368dd/registry.npmjs.org/autoprefixer/-/autoprefixer-6.5.4.tgz not in flight; adding
+62 verbose addTmpTarball already have metadata; skipping unpack for autoprefixer@6.5.4
+63 silly cache afterAdd autoprefixer@6.5.4
+64 verbose afterAdd /home/rico/.npm/autoprefixer/6.5.4/package/package.json not in flight; writing
+65 verbose afterAdd /home/rico/.npm/autoprefixer/6.5.4/package/package.json written
+66 silly fetchNamedPackageData browserslist
+67 silly mapToRegistry name browserslist
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/browserslist
+71 silly fetchNamedPackageData caniuse-db
+72 silly mapToRegistry name caniuse-db
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/caniuse-db
+76 silly fetchNamedPackageData normalize-range
+77 silly mapToRegistry name normalize-range
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry uri https://registry.npmjs.org/normalize-range
+81 silly fetchNamedPackageData num2fraction
+82 silly mapToRegistry name num2fraction
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/num2fraction
+86 silly fetchNamedPackageData postcss-value-parser
+87 silly mapToRegistry name postcss-value-parser
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry uri https://registry.npmjs.org/postcss-value-parser
+91 verbose request uri https://registry.npmjs.org/browserslist
+92 verbose request no auth needed
+93 info attempt registry request try #1 at 10:23:03 PM
+94 http request GET https://registry.npmjs.org/browserslist
+95 verbose request uri https://registry.npmjs.org/caniuse-db
+96 verbose request no auth needed
+97 info attempt registry request try #1 at 10:23:03 PM
+98 http request GET https://registry.npmjs.org/caniuse-db
+99 verbose request uri https://registry.npmjs.org/normalize-range
+100 verbose request no auth needed
+101 info attempt registry request try #1 at 10:23:03 PM
+102 http request GET https://registry.npmjs.org/normalize-range
+103 verbose request uri https://registry.npmjs.org/num2fraction
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 10:23:03 PM
+106 http request GET https://registry.npmjs.org/num2fraction
+107 verbose request uri https://registry.npmjs.org/postcss-value-parser
+108 verbose request no auth needed
+109 info attempt registry request try #1 at 10:23:03 PM
+110 http request GET https://registry.npmjs.org/postcss-value-parser
+111 http 200 https://registry.npmjs.org/num2fraction
+112 verbose headers { server: 'nginx/1.10.1',
+112 verbose headers   'content-type': 'application/json',
+112 verbose headers   'last-modified': 'Mon, 14 Sep 2015 02:12:01 GMT',
+112 verbose headers   etag: 'W/"55f62cf1-273a"',
+112 verbose headers   'content-encoding': 'gzip',
+112 verbose headers   'cache-control': 'max-age=300',
+112 verbose headers   'content-length': '2233',
+112 verbose headers   'accept-ranges': 'bytes',
+112 verbose headers   date: 'Tue, 20 Dec 2016 21:23:03 GMT',
+112 verbose headers   via: '1.1 varnish',
+112 verbose headers   age: '253',
+112 verbose headers   connection: 'keep-alive',
+112 verbose headers   'x-served-by': 'cache-hhn1535-HHN',
+112 verbose headers   'x-cache': 'HIT',
+112 verbose headers   'x-cache-hits': '1',
+112 verbose headers   'x-timer': 'S1482268983.064140,VS0,VE0',
+112 verbose headers   vary: 'Accept-Encoding' }
+113 silly get cb [ 200,
+113 silly get   { server: 'nginx/1.10.1',
+113 silly get     'content-type': 'application/json',
+113 silly get     'last-modified': 'Mon, 14 Sep 2015 02:12:01 GMT',
+113 silly get     etag: 'W/"55f62cf1-273a"',
+113 silly get     'content-encoding': 'gzip',
+113 silly get     'cache-control': 'max-age=300',
+113 silly get     'content-length': '2233',
+113 silly get     'accept-ranges': 'bytes',
+113 silly get     date: 'Tue, 20 Dec 2016 21:23:03 GMT',
+113 silly get     via: '1.1 varnish',
+113 silly get     age: '253',
+113 silly get     connection: 'keep-alive',
+113 silly get     'x-served-by': 'cache-hhn1535-HHN',
+113 silly get     'x-cache': 'HIT',
+113 silly get     'x-cache-hits': '1',
+113 silly get     'x-timer': 'S1482268983.064140,VS0,VE0',
+113 silly get     vary: 'Accept-Encoding' } ]
+114 verbose get saving num2fraction to /home/rico/.npm/registry.npmjs.org/num2fraction/.cache.json
+115 http 200 https://registry.npmjs.org/normalize-range
+116 verbose headers { server: 'nginx/1.10.1',
+116 verbose headers   'content-type': 'application/json',
+116 verbose headers   'last-modified': 'Tue, 24 Nov 2015 00:20:49 GMT',
+116 verbose headers   etag: 'W/"5653ad61-268b"',
+116 verbose headers   'content-encoding': 'gzip',
+116 verbose headers   'cache-control': 'max-age=300',
+116 verbose headers   'content-length': '2652',
+116 verbose headers   'accept-ranges': 'bytes',
+116 verbose headers   date: 'Tue, 20 Dec 2016 21:23:03 GMT',
+116 verbose headers   via: '1.1 varnish',
+116 verbose headers   age: '253',
+116 verbose headers   connection: 'keep-alive',
+116 verbose headers   'x-served-by': 'cache-hhn1522-HHN',
+116 verbose headers   'x-cache': 'HIT',
+116 verbose headers   'x-cache-hits': '2',
+116 verbose headers   'x-timer': 'S1482268983.064451,VS0,VE0',
+116 verbose headers   vary: 'Accept-Encoding' }
+117 silly get cb [ 200,
+117 silly get   { server: 'nginx/1.10.1',
+117 silly get     'content-type': 'application/json',
+117 silly get     'last-modified': 'Tue, 24 Nov 2015 00:20:49 GMT',
+117 silly get     etag: 'W/"5653ad61-268b"',
+117 silly get     'content-encoding': 'gzip',
+117 silly get     'cache-control': 'max-age=300',
+117 silly get     'content-length': '2652',
+117 silly get     'accept-ranges': 'bytes',
+117 silly get     date: 'Tue, 20 Dec 2016 21:23:03 GMT',
+117 silly get     via: '1.1 varnish',
+117 silly get     age: '253',
+117 silly get     connection: 'keep-alive',
+117 silly get     'x-served-by': 'cache-hhn1522-HHN',
+117 silly get     'x-cache': 'HIT',
+117 silly get     'x-cache-hits': '2',
+117 silly get     'x-timer': 'S1482268983.064451,VS0,VE0',
+117 silly get     vary: 'Accept-Encoding' } ]
+118 verbose get saving normalize-range to /home/rico/.npm/registry.npmjs.org/normalize-range/.cache.json
+119 http 200 https://registry.npmjs.org/postcss-value-parser
+120 verbose headers { server: 'nginx/1.10.1',
+120 verbose headers   'content-type': 'application/json',
+120 verbose headers   'last-modified': 'Thu, 18 Feb 2016 17:40:59 GMT',
+120 verbose headers   etag: 'W/"56c6022b-adaf"',
+120 verbose headers   'content-encoding': 'gzip',
+120 verbose headers   'cache-control': 'max-age=300',
+120 verbose headers   'content-length': '6619',
+120 verbose headers   'accept-ranges': 'bytes',
+120 verbose headers   date: 'Tue, 20 Dec 2016 21:23:03 GMT',
+120 verbose headers   via: '1.1 varnish',
+120 verbose headers   age: '252',
+120 verbose headers   connection: 'keep-alive',
+120 verbose headers   'x-served-by': 'cache-hhn1521-HHN',
+120 verbose headers   'x-cache': 'HIT',
+120 verbose headers   'x-cache-hits': '2',
+120 verbose headers   'x-timer': 'S1482268983.066787,VS0,VE0',
+120 verbose headers   vary: 'Accept-Encoding' }
+121 silly get cb [ 200,
+121 silly get   { server: 'nginx/1.10.1',
+121 silly get     'content-type': 'application/json',
+121 silly get     'last-modified': 'Thu, 18 Feb 2016 17:40:59 GMT',
+121 silly get     etag: 'W/"56c6022b-adaf"',
+121 silly get     'content-encoding': 'gzip',
+121 silly get     'cache-control': 'max-age=300',
+121 silly get     'content-length': '6619',
+121 silly get     'accept-ranges': 'bytes',
+121 silly get     date: 'Tue, 20 Dec 2016 21:23:03 GMT',
+121 silly get     via: '1.1 varnish',
+121 silly get     age: '252',
+121 silly get     connection: 'keep-alive',
+121 silly get     'x-served-by': 'cache-hhn1521-HHN',
+121 silly get     'x-cache': 'HIT',
+121 silly get     'x-cache-hits': '2',
+121 silly get     'x-timer': 'S1482268983.066787,VS0,VE0',
+121 silly get     vary: 'Accept-Encoding' } ]
+122 verbose get saving postcss-value-parser to /home/rico/.npm/registry.npmjs.org/postcss-value-parser/.cache.json
+123 silly resolveWithNewModule num2fraction@1.2.2 checking installable status
+124 silly cache add args [ 'num2fraction@^1.2.2', null ]
+125 verbose cache add spec num2fraction@^1.2.2
+126 silly cache add parsed spec Result {
+126 silly cache add   raw: 'num2fraction@^1.2.2',
+126 silly cache add   scope: null,
+126 silly cache add   name: 'num2fraction',
+126 silly cache add   rawSpec: '^1.2.2',
+126 silly cache add   spec: '>=1.2.2 <2.0.0',
+126 silly cache add   type: 'range' }
+127 silly addNamed num2fraction@>=1.2.2 <2.0.0
+128 verbose addNamed ">=1.2.2 <2.0.0" is a valid semver range for num2fraction
+129 silly addNameRange { name: 'num2fraction', range: '>=1.2.2 <2.0.0', hasData: false }
+130 silly mapToRegistry name num2fraction
+131 silly mapToRegistry using default registry
+132 silly mapToRegistry registry https://registry.npmjs.org/
+133 silly mapToRegistry uri https://registry.npmjs.org/num2fraction
+134 verbose addNameRange registry:https://registry.npmjs.org/num2fraction not in flight; fetching
+135 silly resolveWithNewModule normalize-range@0.1.2 checking installable status
+136 silly cache add args [ 'normalize-range@^0.1.2', null ]
+137 verbose cache add spec normalize-range@^0.1.2
+138 silly cache add parsed spec Result {
+138 silly cache add   raw: 'normalize-range@^0.1.2',
+138 silly cache add   scope: null,
+138 silly cache add   name: 'normalize-range',
+138 silly cache add   rawSpec: '^0.1.2',
+138 silly cache add   spec: '>=0.1.2 <0.2.0',
+138 silly cache add   type: 'range' }
+139 silly addNamed normalize-range@>=0.1.2 <0.2.0
+140 verbose addNamed ">=0.1.2 <0.2.0" is a valid semver range for normalize-range
+141 silly addNameRange { name: 'normalize-range',
+141 silly addNameRange   range: '>=0.1.2 <0.2.0',
+141 silly addNameRange   hasData: false }
+142 silly mapToRegistry name normalize-range
+143 silly mapToRegistry using default registry
+144 silly mapToRegistry registry https://registry.npmjs.org/
+145 silly mapToRegistry uri https://registry.npmjs.org/normalize-range
+146 verbose addNameRange registry:https://registry.npmjs.org/normalize-range not in flight; fetching
+147 verbose get https://registry.npmjs.org/num2fraction not expired, no request
+148 silly addNameRange number 2 { name: 'num2fraction', range: '>=1.2.2 <2.0.0', hasData: true }
+149 silly addNameRange versions [ 'num2fraction',
+149 silly addNameRange   [ '1.0.0', '1.0.1', '1.1.0', '1.2.0', '1.2.1', '1.2.2' ] ]
+150 silly addNamed num2fraction@1.2.2
+151 verbose addNamed "1.2.2" is a plain semver version for num2fraction
+152 silly mapToRegistry name num2fraction
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry https://registry.npmjs.org/
+155 silly mapToRegistry uri https://registry.npmjs.org/num2fraction
+156 verbose addRemoteTarball https://registry.npmjs.org/num2fraction/-/num2fraction-1.2.2.tgz not in flight; adding
+157 verbose addRemoteTarball [ 'https://registry.npmjs.org/num2fraction/-/num2fraction-1.2.2.tgz',
+157 verbose addRemoteTarball   '6f682b6a027a4e9ddfa4564cd2589d1d4e669ede' ]
+158 verbose get https://registry.npmjs.org/normalize-range not expired, no request
+159 silly addNameRange number 2 { name: 'normalize-range',
+159 silly addNameRange   range: '>=0.1.2 <0.2.0',
+159 silly addNameRange   hasData: true }
+160 silly addNameRange versions [ 'normalize-range', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+161 silly addNamed normalize-range@0.1.2
+162 verbose addNamed "0.1.2" is a plain semver version for normalize-range
+163 info retry fetch attempt 1 at 10:23:03 PM
+164 info attempt registry request try #1 at 10:23:03 PM
+165 http fetch GET https://registry.npmjs.org/num2fraction/-/num2fraction-1.2.2.tgz
+166 silly mapToRegistry name normalize-range
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry uri https://registry.npmjs.org/normalize-range
+170 verbose addRemoteTarball https://registry.npmjs.org/normalize-range/-/normalize-range-0.1.2.tgz not in flight; adding
+171 verbose addRemoteTarball [ 'https://registry.npmjs.org/normalize-range/-/normalize-range-0.1.2.tgz',
+171 verbose addRemoteTarball   '2d10c06bdfd312ea9777695a4d28439456b75942' ]
+172 silly resolveWithNewModule postcss-value-parser@3.3.0 checking installable status
+173 silly cache add args [ 'postcss-value-parser@^3.2.3', null ]
+174 verbose cache add spec postcss-value-parser@^3.2.3
+175 silly cache add parsed spec Result {
+175 silly cache add   raw: 'postcss-value-parser@^3.2.3',
+175 silly cache add   scope: null,
+175 silly cache add   name: 'postcss-value-parser',
+175 silly cache add   rawSpec: '^3.2.3',
+175 silly cache add   spec: '>=3.2.3 <4.0.0',
+175 silly cache add   type: 'range' }
+176 silly addNamed postcss-value-parser@>=3.2.3 <4.0.0
+177 verbose addNamed ">=3.2.3 <4.0.0" is a valid semver range for postcss-value-parser
+178 silly addNameRange { name: 'postcss-value-parser',
+178 silly addNameRange   range: '>=3.2.3 <4.0.0',
+178 silly addNameRange   hasData: false }
+179 silly mapToRegistry name postcss-value-parser
+180 silly mapToRegistry using default registry
+181 silly mapToRegistry registry https://registry.npmjs.org/
+182 silly mapToRegistry uri https://registry.npmjs.org/postcss-value-parser
+183 verbose addNameRange registry:https://registry.npmjs.org/postcss-value-parser not in flight; fetching
+184 info retry fetch attempt 1 at 10:23:03 PM
+185 info attempt registry request try #1 at 10:23:03 PM
+186 http fetch GET https://registry.npmjs.org/normalize-range/-/normalize-range-0.1.2.tgz
+187 verbose get https://registry.npmjs.org/postcss-value-parser not expired, no request
+188 silly addNameRange number 2 { name: 'postcss-value-parser',
+188 silly addNameRange   range: '>=3.2.3 <4.0.0',
+188 silly addNameRange   hasData: true }
+189 silly addNameRange versions [ 'postcss-value-parser',
+189 silly addNameRange   [ '1.0.0',
+189 silly addNameRange     '1.0.1',
+189 silly addNameRange     '1.0.2',
+189 silly addNameRange     '1.1.0',
+189 silly addNameRange     '1.2.0',
+189 silly addNameRange     '1.2.1',
+189 silly addNameRange     '1.2.2',
+189 silly addNameRange     '1.3.0',
+189 silly addNameRange     '1.4.0',
+189 silly addNameRange     '1.4.1',
+189 silly addNameRange     '1.4.2',
+189 silly addNameRange     '2.0.0',
+189 silly addNameRange     '2.0.1',
+189 silly addNameRange     '2.0.2',
+189 silly addNameRange     '2.0.3',
+189 silly addNameRange     '2.0.4',
+189 silly addNameRange     '2.0.5',
+189 silly addNameRange     '3.0.0',
+189 silly addNameRange     '3.0.1',
+189 silly addNameRange     '3.0.2',
+189 silly addNameRange     '3.0.3',
+189 silly addNameRange     '3.1.0',
+189 silly addNameRange     '3.1.1',
+189 silly addNameRange     '3.1.2',
+189 silly addNameRange     '3.1.3',
+189 silly addNameRange     '3.2.0',
+189 silly addNameRange     '3.2.1',
+189 silly addNameRange     '3.2.3',
+189 silly addNameRange     '3.3.0' ] ]
+190 silly addNamed postcss-value-parser@3.3.0
+191 verbose addNamed "3.3.0" is a plain semver version for postcss-value-parser
+192 http 200 https://registry.npmjs.org/browserslist
+193 verbose headers { server: 'nginx/1.10.1',
+193 verbose headers   'content-type': 'application/json',
+193 verbose headers   'last-modified': 'Mon, 12 Dec 2016 03:16:16 GMT',
+193 verbose headers   etag: 'W/"584e1680-9980"',
+193 verbose headers   'content-encoding': 'gzip',
+193 verbose headers   'cache-control': 'max-age=300',
+193 verbose headers   'content-length': '7173',
+193 verbose headers   'accept-ranges': 'bytes',
+193 verbose headers   date: 'Tue, 20 Dec 2016 21:23:03 GMT',
+193 verbose headers   via: '1.1 varnish',
+193 verbose headers   age: '0',
+193 verbose headers   connection: 'keep-alive',
+193 verbose headers   'x-served-by': 'cache-hhn1538-HHN',
+193 verbose headers   'x-cache': 'HIT',
+193 verbose headers   'x-cache-hits': '1',
+193 verbose headers   'x-timer': 'S1482268983.054519,VS0,VE44',
+193 verbose headers   vary: 'Accept-Encoding' }
+194 silly get cb [ 200,
+194 silly get   { server: 'nginx/1.10.1',
+194 silly get     'content-type': 'application/json',
+194 silly get     'last-modified': 'Mon, 12 Dec 2016 03:16:16 GMT',
+194 silly get     etag: 'W/"584e1680-9980"',
+194 silly get     'content-encoding': 'gzip',
+194 silly get     'cache-control': 'max-age=300',
+194 silly get     'content-length': '7173',
+194 silly get     'accept-ranges': 'bytes',
+194 silly get     date: 'Tue, 20 Dec 2016 21:23:03 GMT',
+194 silly get     via: '1.1 varnish',
+194 silly get     age: '0',
+194 silly get     connection: 'keep-alive',
+194 silly get     'x-served-by': 'cache-hhn1538-HHN',
+194 silly get     'x-cache': 'HIT',
+194 silly get     'x-cache-hits': '1',
+194 silly get     'x-timer': 'S1482268983.054519,VS0,VE44',
+194 silly get     vary: 'Accept-Encoding' } ]
+195 verbose get saving browserslist to /home/rico/.npm/registry.npmjs.org/browserslist/.cache.json
+196 silly mapToRegistry name postcss-value-parser
+197 silly mapToRegistry using default registry
+198 silly mapToRegistry registry https://registry.npmjs.org/
+199 silly mapToRegistry uri https://registry.npmjs.org/postcss-value-parser
+200 verbose addRemoteTarball https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-3.3.0.tgz not in flight; adding
+201 verbose addRemoteTarball [ 'https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-3.3.0.tgz',
+201 verbose addRemoteTarball   '87f38f9f18f774a4ab4c8a232f5c5ce8872a9d15' ]
+202 info retry fetch attempt 1 at 10:23:03 PM
+203 info attempt registry request try #1 at 10:23:03 PM
+204 http fetch GET https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-3.3.0.tgz
+205 silly resolveWithNewModule browserslist@1.4.0 checking installable status
+206 silly cache add args [ 'browserslist@~1.4.0', null ]
+207 verbose cache add spec browserslist@~1.4.0
+208 silly cache add parsed spec Result {
+208 silly cache add   raw: 'browserslist@~1.4.0',
+208 silly cache add   scope: null,
+208 silly cache add   name: 'browserslist',
+208 silly cache add   rawSpec: '~1.4.0',
+208 silly cache add   spec: '>=1.4.0 <1.5.0',
+208 silly cache add   type: 'range' }
+209 silly addNamed browserslist@>=1.4.0 <1.5.0
+210 verbose addNamed ">=1.4.0 <1.5.0" is a valid semver range for browserslist
+211 silly addNameRange { name: 'browserslist', range: '>=1.4.0 <1.5.0', hasData: false }
+212 silly mapToRegistry name browserslist
+213 silly mapToRegistry using default registry
+214 silly mapToRegistry registry https://registry.npmjs.org/
+215 silly mapToRegistry uri https://registry.npmjs.org/browserslist
+216 verbose addNameRange registry:https://registry.npmjs.org/browserslist not in flight; fetching
+217 verbose get https://registry.npmjs.org/browserslist not expired, no request
+218 silly addNameRange number 2 { name: 'browserslist', range: '>=1.4.0 <1.5.0', hasData: true }
+219 silly addNameRange versions [ 'browserslist',
+219 silly addNameRange   [ '0.1.0',
+219 silly addNameRange     '0.1.1',
+219 silly addNameRange     '0.1.2',
+219 silly addNameRange     '0.1.3',
+219 silly addNameRange     '0.2.0',
+219 silly addNameRange     '0.3.0',
+219 silly addNameRange     '0.3.1',
+219 silly addNameRange     '0.3.2',
+219 silly addNameRange     '0.3.3',
+219 silly addNameRange     '0.4.0',
+219 silly addNameRange     '0.5.0',
+219 silly addNameRange     '1.0.0',
+219 silly addNameRange     '1.0.1',
+219 silly addNameRange     '1.1.0',
+219 silly addNameRange     '1.1.1',
+219 silly addNameRange     '1.1.2',
+219 silly addNameRange     '1.1.3',
+219 silly addNameRange     '1.2.0',
+219 silly addNameRange     '1.3.0',
+219 silly addNameRange     '1.3.1',
+219 silly addNameRange     '1.3.2',
+219 silly addNameRange     '1.3.3',
+219 silly addNameRange     '1.3.4',
+219 silly addNameRange     '1.3.5',
+219 silly addNameRange     '1.3.6',
+219 silly addNameRange     '1.4.0' ] ]
+220 silly addNamed browserslist@1.4.0
+221 verbose addNamed "1.4.0" is a plain semver version for browserslist
+222 silly mapToRegistry name browserslist
+223 silly mapToRegistry using default registry
+224 silly mapToRegistry registry https://registry.npmjs.org/
+225 silly mapToRegistry uri https://registry.npmjs.org/browserslist
+226 verbose addRemoteTarball https://registry.npmjs.org/browserslist/-/browserslist-1.4.0.tgz not in flight; adding
+227 verbose addRemoteTarball [ 'https://registry.npmjs.org/browserslist/-/browserslist-1.4.0.tgz',
+227 verbose addRemoteTarball   '9cfdcf5384d9158f5b70da2aa00b30e8ff019049' ]
+228 info retry fetch attempt 1 at 10:23:03 PM
+229 info attempt registry request try #1 at 10:23:03 PM
+230 http fetch GET https://registry.npmjs.org/browserslist/-/browserslist-1.4.0.tgz
+231 http 200 https://registry.npmjs.org/caniuse-db
+232 verbose headers { server: 'nginx/1.10.1',
+232 verbose headers   'content-type': 'application/json',
+232 verbose headers   'last-modified': 'Tue, 20 Dec 2016 01:29:31 GMT',
+232 verbose headers   etag: 'W/"5858897b-a5049"',
+232 verbose headers   'content-encoding': 'gzip',
+232 verbose headers   'cache-control': 'max-age=300',
+232 verbose headers   'content-length': '59426',
+232 verbose headers   'accept-ranges': 'bytes',
+232 verbose headers   date: 'Tue, 20 Dec 2016 21:23:03 GMT',
+232 verbose headers   via: '1.1 varnish',
+232 verbose headers   age: '0',
+232 verbose headers   connection: 'keep-alive',
+232 verbose headers   'x-served-by': 'cache-hhn1542-HHN',
+232 verbose headers   'x-cache': 'HIT',
+232 verbose headers   'x-cache-hits': '1',
+232 verbose headers   'x-timer': 'S1482268983.058147,VS0,VE1',
+232 verbose headers   vary: 'Accept-Encoding' }
+233 silly get cb [ 200,
+233 silly get   { server: 'nginx/1.10.1',
+233 silly get     'content-type': 'application/json',
+233 silly get     'last-modified': 'Tue, 20 Dec 2016 01:29:31 GMT',
+233 silly get     etag: 'W/"5858897b-a5049"',
+233 silly get     'content-encoding': 'gzip',
+233 silly get     'cache-control': 'max-age=300',
+233 silly get     'content-length': '59426',
+233 silly get     'accept-ranges': 'bytes',
+233 silly get     date: 'Tue, 20 Dec 2016 21:23:03 GMT',
+233 silly get     via: '1.1 varnish',
+233 silly get     age: '0',
+233 silly get     connection: 'keep-alive',
+233 silly get     'x-served-by': 'cache-hhn1542-HHN',
+233 silly get     'x-cache': 'HIT',
+233 silly get     'x-cache-hits': '1',
+233 silly get     'x-timer': 'S1482268983.058147,VS0,VE1',
+233 silly get     vary: 'Accept-Encoding' } ]
+234 verbose get saving caniuse-db to /home/rico/.npm/registry.npmjs.org/caniuse-db/.cache.json
+235 http fetch 200 https://registry.npmjs.org/num2fraction/-/num2fraction-1.2.2.tgz
+236 silly fetchAndShaCheck shasum 6f682b6a027a4e9ddfa4564cd2589d1d4e669ede
+237 verbose addTmpTarball /tmp/npm-2716-56d368dd/registry.npmjs.org/num2fraction/-/num2fraction-1.2.2.tgz not in flight; adding
+238 verbose addTmpTarball already have metadata; skipping unpack for num2fraction@1.2.2
+239 silly resolveWithNewModule caniuse-db@1.0.30000601 checking installable status
+240 silly cache add args [ 'caniuse-db@^1.0.30000597', null ]
+241 verbose cache add spec caniuse-db@^1.0.30000597
+242 silly cache add parsed spec Result {
+242 silly cache add   raw: 'caniuse-db@^1.0.30000597',
+242 silly cache add   scope: null,
+242 silly cache add   name: 'caniuse-db',
+242 silly cache add   rawSpec: '^1.0.30000597',
+242 silly cache add   spec: '>=1.0.30000597 <2.0.0',
+242 silly cache add   type: 'range' }
+243 silly addNamed caniuse-db@>=1.0.30000597 <2.0.0
+244 verbose addNamed ">=1.0.30000597 <2.0.0" is a valid semver range for caniuse-db
+245 silly addNameRange { name: 'caniuse-db',
+245 silly addNameRange   range: '>=1.0.30000597 <2.0.0',
+245 silly addNameRange   hasData: false }
+246 silly mapToRegistry name caniuse-db
+247 silly mapToRegistry using default registry
+248 silly mapToRegistry registry https://registry.npmjs.org/
+249 silly mapToRegistry uri https://registry.npmjs.org/caniuse-db
+250 verbose addNameRange registry:https://registry.npmjs.org/caniuse-db not in flight; fetching
+251 http fetch 200 https://registry.npmjs.org/normalize-range/-/normalize-range-0.1.2.tgz
+252 http fetch 200 https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-3.3.0.tgz
+253 verbose get https://registry.npmjs.org/caniuse-db not expired, no request
+254 silly addNameRange number 2 { name: 'caniuse-db',
+254 silly addNameRange   range: '>=1.0.30000597 <2.0.0',
+254 silly addNameRange   hasData: true }
+255 silly addNameRange versions [ 'caniuse-db',
+255 silly addNameRange   [ '1.0.20140224',
+255 silly addNameRange     '1.0.20140225',
+255 silly addNameRange     '1.0.20140226',
+255 silly addNameRange     '1.0.20140301',
+255 silly addNameRange     '1.0.20140302',
+255 silly addNameRange     '1.0.20140303',
+255 silly addNameRange     '1.0.20140304',
+255 silly addNameRange     '1.0.20140306',
+255 silly addNameRange     '1.0.20140311',
+255 silly addNameRange     '1.0.20140313',
+255 silly addNameRange     '1.0.20140316',
+255 silly addNameRange     '1.0.20140318',
+255 silly addNameRange     '1.0.20140319',
+255 silly addNameRange     '1.0.20140325',
+255 silly addNameRange     '1.0.20140326',
+255 silly addNameRange     '1.0.20140330',
+255 silly addNameRange     '1.0.20140331',
+255 silly addNameRange     '1.0.20140401',
+255 silly addNameRange     '1.0.20140403',
+255 silly addNameRange     '1.0.20140409',
+255 silly addNameRange     '1.0.20140412',
+255 silly addNameRange     '1.0.20140416',
+255 silly addNameRange     '1.0.20140422',
+255 silly addNameRange     '1.0.20140428',
+255 silly addNameRange     '1.0.20140429',
+255 silly addNameRange     '1.0.20140502',
+255 silly addNameRange     '1.0.20140504',
+255 silly addNameRange     '1.0.20140505',
+255 silly addNameRange     '1.0.20140506',
+255 silly addNameRange     '1.0.20140507',
+255 silly addNameRange     '1.0.20140511',
+255 silly addNameRange     '1.0.20140516',
+255 silly addNameRange     '1.0.20140519',
+255 silly addNameRange     '1.0.20140520',
+255 silly addNameRange     '1.0.20140521',
+255 silly addNameRange     '1.0.20140523',
+255 silly addNameRange     '1.0.20140526',
+255 silly addNameRange     '1.0.20140529',
+255 silly addNameRange     '1.0.20140601',
+255 silly addNameRange     '1.0.20140602',
+255 silly addNameRange     '1.0.20140603',
+255 silly addNameRange     '1.0.20140606',
+255 silly addNameRange     '1.0.20140608',
+255 silly addNameRange     '1.0.20140609',
+255 silly addNameRange     '1.0.20140610',
+255 silly addNameRange     '1.0.20140611',
+255 silly addNameRange     '1.0.20140616',
+255 silly addNameRange     '1.0.20140617',
+255 silly addNameRange     '1.0.20140618',
+255 silly addNameRange     '1.0.20140619',
+255 silly addNameRange     '1.0.20140622',
+255 silly addNameRange     '1.0.20140623',
+255 silly addNameRange     '1.0.20140626',
+255 silly addNameRange     '1.0.20140628',
+255 silly addNameRange     '1.0.20140702',
+255 silly addNameRange     '1.0.20140710',
+255 silly addNameRange     '1.0.20140715',
+255 silly addNameRange     '1.0.20140716',
+255 silly addNameRange     '1.0.20140717',
+255 silly addNameRange     '1.0.20140721',
+255 silly addNameRange     '1.0.20140722',
+255 silly addNameRange     '1.0.20140724',
+255 silly addNameRange     '1.0.20140726',
+255 silly addNameRange     '1.0.20140727',
+255 silly addNameRange     '1.0.20140728',
+255 silly addNameRange     '1.0.20140729',
+255 silly addNameRange     '1.0.20140730',
+255 silly addNameRange     '1.0.20140731',
+255 silly addNameRange     '1.0.20140801',
+255 silly addNameRange     '1.0.20140804',
+255 silly addNameRange     '1.0.20140810',
+255 silly addNameRange     '1.0.20140811',
+255 silly addNameRange     '1.0.20140812',
+255 silly addNameRange     '1.0.20140814',
+255 silly addNameRange     '1.0.20140815',
+255 silly addNameRange     '1.0.20140816',
+255 silly addNameRange     '1.0.20140820',
+255 silly addNameRange     '1.0.20140821',
+255 silly addNameRange     '1.0.20140826',
+255 silly addNameRange     '1.0.20140827',
+255 silly addNameRange     '1.0.20140902',
+255 silly addNameRange     '1.0.20140903',
+255 silly addNameRange     '1.0.20140906',
+255 silly addNameRange     '1.0.20140908',
+255 silly addNameRange     '1.0.20140909',
+255 silly addNameRange     '1.0.20140910',
+255 silly addNameRange     '1.0.20140911',
+255 silly addNameRange     '1.0.20140915',
+255 silly addNameRange     '1.0.20140916',
+255 silly addNameRange     '1.0.20140918',
+255 silly addNameRange     '1.0.20140922',
+255 silly addNameRange     '1.0.20140924',
+255 silly addNameRange     '1.0.20140928',
+255 silly addNameRange     '1.0.20140929',
+255 silly addNameRange     '1.0.20141001',
+255 silly addNameRange     '1.0.20141006',
+255 silly addNameRange     '1.0.20141007',
+255 silly addNameRange     '1.0.20141008',
+255 silly addNameRange     '1.0.30000001',
+255 silly addNameRange     '1.0.30000002',
+255 silly addNameRange     '1.0.30000003',
+255 silly addNameRange     '1.0.30000004',
+255 silly addNameRange     '1.0.30000005',
+255 silly addNameRange     '1.0.30000006',
+255 silly addNameRange     '1.0.30000007',
+255 silly addNameRange     '1.0.30000008',
+255 silly addNameRange     '1.0.30000009',
+255 silly addNameRange     '1.0.30000010',
+255 silly addNameRange     '1.0.30000011',
+255 silly addNameRange     '1.0.30000012',
+255 silly addNameRange     '1.0.30000013',
+255 silly addNameRange     '1.0.30000014',
+255 silly addNameRange     '1.0.30000015',
+255 silly addNameRange     '1.0.30000016',
+255 silly addNameRange     '1.0.30000017',
+255 silly addNameRange     '1.0.30000018',
+255 silly addNameRange     '1.0.30000019',
+255 silly addNameRange     '1.0.30000020',
+255 silly addNameRange     '1.0.30000021',
+255 silly addNameRange     '1.0.30000022',
+255 silly addNameRange     '1.0.30000023',
+255 silly addNameRange     '1.0.30000024',
+255 silly addNameRange     '1.0.30000025',
+255 silly addNameRange     '1.0.30000026',
+255 silly addNameRange     '1.0.30000027',
+255 silly addNameRange     '1.0.30000028',
+255 silly addNameRange     '1.0.30000029',
+255 silly addNameRange     '1.0.30000030',
+255 silly addNameRange     '1.0.30000031',
+255 silly addNameRange     '1.0.30000032',
+255 silly addNameRange     '1.0.30000033',
+255 silly addNameRange     '1.0.30000034',
+255 silly addNameRange     '1.0.30000035',
+255 silly addNameRange     '1.0.30000036',
+255 silly addNameRange     '1.0.30000037',
+255 silly addNameRange     '1.0.30000038',
+255 silly addNameRange     '1.0.30000039',
+255 silly addNameRange     '1.0.30000040',
+255 silly addNameRange     '1.0.30000041',
+255 silly addNameRange     '1.0.30000042',
+255 silly addNameRange     '1.0.30000043',
+255 silly addNameRange     '1.0.30000044',
+255 silly addNameRange     '1.0.30000045',
+255 silly addNameRange     '1.0.30000046',
+255 silly addNameRange     '1.0.30000047',
+255 silly addNameRange     '1.0.30000048',
+255 silly addNameRange     '1.0.30000049',
+255 silly addNameRange     '1.0.30000050',
+255 silly addNameRange     '1.0.30000051',
+255 silly addNameRange     '1.0.30000052',
+255 silly addNameRange     '1.0.30000053',
+255 silly addNameRange     '1.0.30000054',
+255 silly addNameRange     '1.0.30000055',
+255 silly addNameRange     '1.0.30000056',
+255 silly addNameRange     '1.0.30000057',
+255 silly addNameRange     '1.0.30000058',
+255 silly addNameRange     '1.0.30000059',
+255 silly addNameRange     '1.0.30000060',
+255 silly addNameRange     '1.0.30000061',
+255 silly addNameRange     '1.0.30000062',
+255 silly addNameRange     '1.0.30000063',
+255 silly addNameRange     '1.0.30000064',
+255 silly addNameRange     '1.0.30000065',
+255 silly addNameRange     '1.0.30000066',
+255 silly addNameRange     '1.0.30000067',
+255 silly addNameRange     '1.0.30000068',
+255 silly addNameRange     '1.0.30000069',
+255 silly addNameRange     '1.0.30000070',
+255 silly addNameRange     '1.0.30000071',
+255 silly addNameRange     '1.0.30000072',
+255 silly addNameRange     '1.0.30000073',
+255 silly addNameRange     '1.0.30000074',
+255 silly addNameRange     '1.0.30000075',
+255 silly addNameRange     '1.0.30000076',
+255 silly addNameRange     '1.0.30000077',
+255 silly addNameRange     '1.0.30000078',
+255 silly addNameRange     '1.0.30000079',
+255 silly addNameRange     '1.0.30000080',
+255 silly addNameRange     '1.0.30000081',
+255 silly addNameRange     '1.0.30000082',
+255 silly addNameRange     '1.0.30000083',
+255 silly addNameRange     '1.0.30000084',
+255 silly addNameRange     '1.0.30000085',
+255 silly addNameRange     '1.0.30000086',
+255 silly addNameRange     '1.0.30000087',
+255 silly addNameRange     '1.0.30000088',
+255 silly addNameRange     '1.0.30000089',
+255 silly addNameRange     '1.0.30000090',
+255 silly addNameRange     '1.0.30000091',
+255 silly addNameRange     '1.0.30000092',
+255 silly addNameRange     '1.0.30000093',
+255 silly addNameRange     '1.0.30000094',
+255 silly addNameRange     '1.0.30000095',
+255 silly addNameRange     '1.0.30000096',
+255 silly addNameRange     '1.0.30000097',
+255 silly addNameRange     '1.0.30000098',
+255 silly addNameRange     '1.0.30000099',
+255 silly addNameRange     '1.0.30000100',
+255 silly addNameRange     '1.0.30000101',
+255 silly addNameRange     '1.0.30000102',
+255 silly addNameRange     '1.0.30000103',
+255 silly addNameRange     '1.0.30000104',
+255 silly addNameRange     '1.0.30000105',
+255 silly addNameRange     '1.0.30000106',
+255 silly addNameRange     '1.0.30000107',
+255 silly addNameRange     '1.0.30000108',
+255 silly addNameRange     '1.0.30000109',
+255 silly addNameRange     '1.0.30000110',
+255 silly addNameRange     '1.0.30000111',
+255 silly addNameRange     '1.0.30000112',
+255 silly addNameRange     '1.0.30000113',
+255 silly addNameRange     '1.0.30000114',
+255 silly addNameRange     '1.0.30000115',
+255 silly addNameRange     '1.0.30000116',
+255 silly addNameRange     '1.0.30000117',
+255 silly addNameRange     '1.0.30000118',
+255 silly addNameRange     '1.0.30000119',
+255 silly addNameRange     '1.0.30000120',
+255 silly addNameRange     '1.0.30000121',
+255 silly addNameRange     '1.0.30000123',
+255 silly addNameRange     '1.0.30000124',
+255 silly addNameRange     '1.0.30000125',
+255 silly addNameRange     '1.0.30000126',
+255 silly addNameRange     '1.0.30000127',
+255 silly addNameRange     '1.0.30000128',
+255 silly addNameRange     '1.0.30000129',
+255 silly addNameRange     '1.0.30000130',
+255 silly addNameRange     '1.0.30000131',
+255 silly addNameRange     '1.0.30000132',
+255 silly addNameRange     '1.0.30000133',
+255 silly addNameRange     '1.0.30000134',
+255 silly addNameRange     '1.0.30000135',
+255 silly addNameRange     '1.0.30000136',
+255 silly addNameRange     '1.0.30000137',
+255 silly addNameRange     '1.0.30000138',
+255 silly addNameRange     '1.0.30000139',
+255 silly addNameRange     '1.0.30000140',
+255 silly addNameRange     '1.0.30000141',
+255 silly addNameRange     '1.0.30000142',
+255 silly addNameRange     '1.0.30000143',
+255 silly addNameRange     '1.0.30000144',
+255 silly addNameRange     '1.0.30000145',
+255 silly addNameRange     '1.0.30000146',
+255 silly addNameRange     '1.0.30000147',
+255 silly addNameRange     '1.0.30000148',
+255 silly addNameRange     '1.0.30000149',
+255 silly addNameRange     '1.0.30000150',
+255 silly addNameRange     '1.0.30000151',
+255 silly addNameRange     '1.0.30000152',
+255 silly addNameRange     '1.0.30000153',
+255 silly addNameRange     '1.0.30000154',
+255 silly addNameRange     '1.0.30000155',
+255 silly addNameRange     '1.0.30000156',
+255 silly addNameRange     '1.0.30000157',
+255 silly addNameRange     '1.0.30000158',
+255 silly addNameRange     '1.0.30000159',
+255 silly addNameRange     '1.0.30000160',
+255 silly addNameRange     '1.0.30000161',
+255 silly addNameRange     '1.0.30000162',
+255 silly addNameRange     '1.0.30000163',
+255 silly addNameRange     '1.0.30000164',
+255 silly addNameRange     '1.0.30000165',
+255 silly addNameRange     '1.0.30000166',
+255 silly addNameRange     '1.0.30000167',
+255 silly addNameRange     '1.0.30000168',
+255 silly addNameRange     '1.0.30000169',
+255 silly addNameRange     '1.0.30000170',
+255 silly addNameRange     '1.0.30000171',
+255 silly addNameRange     '1.0.30000172',
+255 silly addNameRange     '1.0.30000173',
+255 silly addNameRange     '1.0.30000174',
+255 silly addNameRange     '1.0.30000175',
+255 silly addNameRange     '1.0.30000176',
+255 silly addNameRange     '1.0.30000177',
+255 silly addNameRange     '1.0.30000178',
+255 silly addNameRange     '1.0.30000179',
+255 silly addNameRange     '1.0.30000180',
+255 silly addNameRange     '1.0.30000181',
+255 silly addNameRange     '1.0.30000182',
+255 silly addNameRange     '1.0.30000183',
+255 silly addNameRange     '1.0.30000184',
+255 silly addNameRange     '1.0.30000185',
+255 silly addNameRange     '1.0.30000186',
+255 silly addNameRange     '1.0.30000187',
+255 silly addNameRange     '1.0.30000188',
+255 silly addNameRange     '1.0.30000189',
+255 silly addNameRange     '1.0.30000190',
+255 silly addNameRange     '1.0.30000191',
+255 silly addNameRange     '1.0.30000192',
+255 silly addNameRange     '1.0.30000193',
+255 silly addNameRange     '1.0.30000194',
+255 silly addNameRange     '1.0.30000195',
+255 silly addNameRange     '1.0.30000196',
+255 silly addNameRange     '1.0.30000197',
+255 silly addNameRange     '1.0.30000198',
+255 silly addNameRange     '1.0.30000199',
+255 silly addNameRange     '1.0.30000200',
+255 silly addNameRange     '1.0.30000201',
+255 silly addNameRange     '1.0.30000202',
+255 silly addNameRange     '1.0.30000203',
+255 silly addNameRange     '1.0.30000204',
+255 silly addNameRange     '1.0.30000205',
+255 silly addNameRange     '1.0.30000206',
+255 silly addNameRange     '1.0.30000207',
+255 silly addNameRange     '1.0.30000208',
+255 silly addNameRange     '1.0.30000209',
+255 silly addNameRange     '1.0.30000210',
+255 silly addNameRange     '1.0.30000211',
+255 silly addNameRange     '1.0.30000212',
+255 silly addNameRange     '1.0.30000213',
+255 silly addNameRange     '1.0.30000214',
+255 silly addNameRange     '1.0.30000215',
+255 silly addNameRange     '1.0.30000216',
+255 silly addNameRange     '1.0.30000217',
+255 silly addNameRange     '1.0.30000218',
+255 silly addNameRange     '1.0.30000219',
+255 silly addNameRange     '1.0.30000221',
+255 silly addNameRange     '1.0.30000222',
+255 silly addNameRange     '1.0.30000223',
+255 silly addNameRange     '1.0.30000224',
+255 silly addNameRange     '1.0.30000225',
+255 silly addNameRange     '1.0.30000226',
+255 silly addNameRange     '1.0.30000227',
+255 silly addNameRange     '1.0.30000228',
+255 silly addNameRange     '1.0.30000229',
+255 silly addNameRange     '1.0.30000230',
+255 silly addNameRange     '1.0.30000231',
+255 silly addNameRange     '1.0.30000232',
+255 silly addNameRange     '1.0.30000233',
+255 silly addNameRange     '1.0.30000234',
+255 silly addNameRange     '1.0.30000235',
+255 silly addNameRange     '1.0.30000236',
+255 silly addNameRange     '1.0.30000237',
+255 silly addNameRange     '1.0.30000238',
+255 silly addNameRange     '1.0.30000239',
+255 silly addNameRange     '1.0.30000240',
+255 silly addNameRange     '1.0.30000241',
+255 silly addNameRange     '1.0.30000242',
+255 silly addNameRange     '1.0.30000243',
+255 silly addNameRange     '1.0.30000244',
+255 silly addNameRange     '1.0.30000245',
+255 silly addNameRange     '1.0.30000246',
+255 silly addNameRange     '1.0.30000247',
+255 silly addNameRange     '1.0.30000248',
+255 silly addNameRange     '1.0.30000249',
+255 silly addNameRange     '1.0.30000250',
+255 silly addNameRange     '1.0.30000251',
+255 silly addNameRange     '1.0.30000252',
+255 silly addNameRange     '1.0.30000253',
+255 silly addNameRange     '1.0.30000254',
+255 silly addNameRange     '1.0.30000255',
+255 silly addNameRange     '1.0.30000256',
+255 silly addNameRange     '1.0.30000257',
+255 silly addNameRange     '1.0.30000258',
+255 silly addNameRange     '1.0.30000259',
+255 silly addNameRange     '1.0.30000260',
+255 silly addNameRange     '1.0.30000261',
+255 silly addNameRange     '1.0.30000262',
+255 silly addNameRange     '1.0.30000263',
+255 silly addNameRange     '1.0.30000264',
+255 silly addNameRange     '1.0.30000265',
+255 silly addNameRange     '1.0.30000266',
+255 silly addNameRange     '1.0.30000267',
+255 silly addNameRange     '1.0.30000268',
+255 silly addNameRange     '1.0.30000269',
+255 silly addNameRange     '1.0.30000270',
+255 silly addNameRange     '1.0.30000271',
+255 silly addNameRange     '1.0.30000272',
+255 silly addNameRange     '1.0.30000273',
+255 silly addNameRange     '1.0.30000274',
+255 silly addNameRange     '1.0.30000275',
+255 silly addNameRange     '1.0.30000276',
+255 silly addNameRange     '1.0.30000277',
+255 silly addNameRange     '1.0.30000278',
+255 silly addNameRange     '1.0.30000279',
+255 silly addNameRange     '1.0.30000280',
+255 silly addNameRange     '1.0.30000281',
+255 silly addNameRange     '1.0.30000282',
+255 silly addNameRange     '1.0.30000283',
+255 silly addNameRange     '1.0.30000284',
+255 silly addNameRange     '1.0.30000285',
+255 silly addNameRange     '1.0.30000286',
+255 silly addNameRange     '1.0.30000287',
+255 silly addNameRange     '1.0.30000288',
+255 silly addNameRange     '1.0.30000289',
+255 silly addNameRange     '1.0.30000290',
+255 silly addNameRange     '1.0.30000291',
+255 silly addNameRange     '1.0.30000292',
+255 silly addNameRange     '1.0.30000293',
+255 silly addNameRange     '1.0.30000294',
+255 silly addNameRange     '1.0.30000295',
+255 silly addNameRange     '1.0.30000296',
+255 silly addNameRange     '1.0.30000297',
+255 silly addNameRange     '1.0.30000298',
+255 silly addNameRange     '1.0.30000299',
+255 silly addNameRange     '1.0.30000300',
+255 silly addNameRange     '1.0.30000301',
+255 silly addNameRange     '1.0.30000302',
+255 silly addNameRange     '1.0.30000303',
+255 silly addNameRange     '1.0.30000304',
+255 silly addNameRange     '1.0.30000305',
+255 silly addNameRange     '1.0.30000306',
+255 silly addNameRange     '1.0.30000307',
+255 silly addNameRange     '1.0.30000308',
+255 silly addNameRange     '1.0.30000309',
+255 silly addNameRange     '1.0.30000310',
+255 silly addNameRange     '1.0.30000311',
+255 silly addNameRange     '1.0.30000312',
+255 silly addNameRange     '1.0.30000313',
+255 silly addNameRange     '1.0.30000314',
+255 silly addNameRange     '1.0.30000315',
+255 silly addNameRange     '1.0.30000316',
+255 silly addNameRange     '1.0.30000317',
+255 silly addNameRange     '1.0.30000318',
+255 silly addNameRange     '1.0.30000319',
+255 silly addNameRange     '1.0.30000320',
+255 silly addNameRange     '1.0.30000321',
+255 silly addNameRange     '1.0.30000322',
+255 silly addNameRange     '1.0.30000323',
+255 silly addNameRange     '1.0.30000324',
+255 silly addNameRange     '1.0.30000325',
+255 silly addNameRange     '1.0.30000326',
+255 silly addNameRange     '1.0.30000327',
+255 silly addNameRange     '1.0.30000328',
+255 silly addNameRange     '1.0.30000329',
+255 silly addNameRange     '1.0.30000330',
+255 silly addNameRange     '1.0.30000331',
+255 silly addNameRange     '1.0.30000332',
+255 silly addNameRange     '1.0.30000333',
+255 silly addNameRange     '1.0.30000334',
+255 silly addNameRange     '1.0.30000335',
+255 silly addNameRange     '1.0.30000336',
+255 silly addNameRange     '1.0.30000337',
+255 silly addNameRange     '1.0.30000338',
+255 silly addNameRange     '1.0.30000339',
+255 silly addNameRange     '1.0.30000340',
+255 silly addNameRange     '1.0.30000341',
+255 silly addNameRange     '1.0.30000342',
+255 silly addNameRange     '1.0.30000343',
+255 silly addNameRange     '1.0.30000344',
+255 silly addNameRange     '1.0.30000345',
+255 silly addNameRange     '1.0.30000346',
+255 silly addNameRange     '1.0.30000347',
+255 silly addNameRange     '1.0.30000348',
+255 silly addNameRange     '1.0.30000349',
+255 silly addNameRange     '1.0.30000350',
+255 silly addNameRange     '1.0.30000351',
+255 silly addNameRange     '1.0.30000352',
+255 silly addNameRange     '1.0.30000353',
+255 silly addNameRange     '1.0.30000354',
+255 silly addNameRange     '1.0.30000355',
+255 silly addNameRange     '1.0.30000356',
+255 silly addNameRange     '1.0.30000357',
+255 silly addNameRange     '1.0.30000358',
+255 silly addNameRange     '1.0.30000359',
+255 silly addNameRange     '1.0.30000360',
+255 silly addNameRange     '1.0.30000361',
+255 silly addNameRange     '1.0.30000362',
+255 silly addNameRange     '1.0.30000363',
+255 silly addNameRange     '1.0.30000364',
+255 silly addNameRange     '1.0.30000365',
+255 silly addNameRange     '1.0.30000366',
+255 silly addNameRange     '1.0.30000367',
+255 silly addNameRange     '1.0.30000368',
+255 silly addNameRange     '1.0.30000369',
+255 silly addNameRange     '1.0.30000370',
+255 silly addNameRange     '1.0.30000371',
+255 silly addNameRange     '1.0.30000372',
+255 silly addNameRange     '1.0.30000373',
+255 silly addNameRange     '1.0.30000374',
+255 silly addNameRange     '1.0.30000375',
+255 silly addNameRange     '1.0.30000376',
+255 silly addNameRange     '1.0.30000377',
+255 silly addNameRange     '1.0.30000378',
+255 silly addNameRange     '1.0.30000379',
+255 silly addNameRange     '1.0.30000380',
+255 silly addNameRange     '1.0.30000381',
+255 silly addNameRange     '1.0.30000382',
+255 silly addNameRange     '1.0.30000383',
+255 silly addNameRange     '1.0.30000384',
+255 silly addNameRange     '1.0.30000385',
+255 silly addNameRange     '1.0.30000386',
+255 silly addNameRange     '1.0.30000387',
+255 silly addNameRange     '1.0.30000388',
+255 silly addNameRange     '1.0.30000389',
+255 silly addNameRange     '1.0.30000390',
+255 silly addNameRange     '1.0.30000391',
+255 silly addNameRange     '1.0.30000392',
+255 silly addNameRange     '1.0.30000393',
+255 silly addNameRange     '1.0.30000394',
+255 silly addNameRange     '1.0.30000395',
+255 silly addNameRange     '1.0.30000396',
+255 silly addNameRange     '1.0.30000397',
+255 silly addNameRange     '1.0.30000398',
+255 silly addNameRange     '1.0.30000399',
+255 silly addNameRange     '1.0.30000400',
+255 silly addNameRange     '1.0.30000401',
+255 silly addNameRange     '1.0.30000402',
+255 silly addNameRange     '1.0.30000403',
+255 silly addNameRange     '1.0.30000404',
+255 silly addNameRange     '1.0.30000405',
+255 silly addNameRange     '1.0.30000406',
+255 silly addNameRange     '1.0.30000407',
+255 silly addNameRange     '1.0.30000408',
+255 silly addNameRange     '1.0.30000409',
+255 silly addNameRange     '1.0.30000410',
+255 silly addNameRange     '1.0.30000411',
+255 silly addNameRange     '1.0.30000412',
+255 silly addNameRange     '1.0.30000413',
+255 silly addNameRange     '1.0.30000414',
+255 silly addNameRange     '1.0.30000415',
+255 silly addNameRange     '1.0.30000416',
+255 silly addNameRange     '1.0.30000417',
+255 silly addNameRange     '1.0.30000418',
+255 silly addNameRange     '1.0.30000419',
+255 silly addNameRange     '1.0.30000420',
+255 silly addNameRange     '1.0.30000421',
+255 silly addNameRange     '1.0.30000422',
+255 silly addNameRange     '1.0.30000423',
+255 silly addNameRange     '1.0.30000424',
+255 silly addNameRange     '1.0.30000425',
+255 silly addNameRange     '1.0.30000426',
+255 silly addNameRange     '1.0.30000427',
+255 silly addNameRange     '1.0.30000428',
+255 silly addNameRange     '1.0.30000429',
+255 silly addNameRange     '1.0.30000430',
+255 silly addNameRange     '1.0.30000431',
+255 silly addNameRange     '1.0.30000432',
+255 silly addNameRange     '1.0.30000433',
+255 silly addNameRange     '1.0.30000434',
+255 silly addNameRange     '1.0.30000435',
+255 silly addNameRange     '1.0.30000436',
+255 silly addNameRange     '1.0.30000437',
+255 silly addNameRange     '1.0.30000438',
+255 silly addNameRange     '1.0.30000439',
+255 silly addNameRange     '1.0.30000440',
+255 silly addNameRange     '1.0.30000441',
+255 silly addNameRange     '1.0.30000442',
+255 silly addNameRange     '1.0.30000443',
+255 silly addNameRange     '1.0.30000444',
+255 silly addNameRange     '1.0.30000445',
+255 silly addNameRange     '1.0.30000446',
+255 silly addNameRange     '1.0.30000447',
+255 silly addNameRange     '1.0.30000448',
+255 silly addNameRange     '1.0.30000449',
+255 silly addNameRange     '1.0.30000450',
+255 silly addNameRange     '1.0.30000451',
+255 silly addNameRange     '1.0.30000452',
+255 silly addNameRange     '1.0.30000453',
+255 silly addNameRange     '1.0.30000454',
+255 silly addNameRange     '1.0.30000455',
+255 silly addNameRange     '1.0.30000456',
+255 silly addNameRange     '1.0.30000457',
+255 silly addNameRange     '1.0.30000458',
+255 silly addNameRange     '1.0.30000459',
+255 silly addNameRange     '1.0.30000460',
+255 silly addNameRange     '1.0.30000461',
+255 silly addNameRange     '1.0.30000462',
+255 silly addNameRange     '1.0.30000463',
+255 silly addNameRange     '1.0.30000464',
+255 silly addNameRange     '1.0.30000465',
+255 silly addNameRange     '1.0.30000466',
+255 silly addNameRange     '1.0.30000467',
+255 silly addNameRange     '1.0.30000468',
+255 silly addNameRange     '1.0.30000469',
+255 silly addNameRange     '1.0.30000470',
+255 silly addNameRange     '1.0.30000471',
+255 silly addNameRange     '1.0.30000472',
+255 silly addNameRange     '1.0.30000473',
+255 silly addNameRange     '1.0.30000474',
+255 silly addNameRange     '1.0.30000475',
+255 silly addNameRange     '1.0.30000476',
+255 silly addNameRange     '1.0.30000477',
+255 silly addNameRange     '1.0.30000478',
+255 silly addNameRange     '1.0.30000479',
+255 silly addNameRange     '1.0.30000480',
+255 silly addNameRange     '1.0.30000481',
+255 silly addNameRange     '1.0.30000482',
+255 silly addNameRange     '1.0.30000483',
+255 silly addNameRange     '1.0.30000484',
+255 silly addNameRange     '1.0.30000485',
+255 silly addNameRange     '1.0.30000486',
+255 silly addNameRange     '1.0.30000487',
+255 silly addNameRange     '1.0.30000488',
+255 silly addNameRange     '1.0.30000489',
+255 silly addNameRange     '1.0.30000490',
+255 silly addNameRange     '1.0.30000491',
+255 silly addNameRange     '1.0.30000492',
+255 silly addNameRange     '1.0.30000493',
+255 silly addNameRange     '1.0.30000494',
+255 silly addNameRange     '1.0.30000495',
+255 silly addNameRange     '1.0.30000496',
+255 silly addNameRange     '1.0.30000497',
+255 silly addNameRange     '1.0.30000498',
+255 silly addNameRange     '1.0.30000499',
+255 silly addNameRange     '1.0.30000500',
+255 silly addNameRange     '1.0.30000501',
+255 silly addNameRange     '1.0.30000502',
+255 silly addNameRange     '1.0.30000503',
+255 silly addNameRange     '1.0.30000504',
+255 silly addNameRange     '1.0.30000505',
+255 silly addNameRange     '1.0.30000506',
+255 silly addNameRange     '1.0.30000507',
+255 silly addNameRange     '1.0.30000508',
+255 silly addNameRange     '1.0.30000509',
+255 silly addNameRange     '1.0.30000510',
+255 silly addNameRange     '1.0.30000511',
+255 silly addNameRange     '1.0.30000512',
+255 silly addNameRange     '1.0.30000513',
+255 silly addNameRange     '1.0.30000514',
+255 silly addNameRange     '1.0.30000515',
+255 silly addNameRange     '1.0.30000516',
+255 silly addNameRange     '1.0.30000517',
+255 silly addNameRange     '1.0.30000518',
+255 silly addNameRange     '1.0.30000519',
+255 silly addNameRange     '1.0.30000520',
+255 silly addNameRange     '1.0.30000521',
+255 silly addNameRange     '1.0.30000522',
+255 silly addNameRange     '1.0.30000523',
+255 silly addNameRange     '1.0.30000524',
+255 silly addNameRange     '1.0.30000525',
+255 silly addNameRange     '1.0.30000526',
+255 silly addNameRange     '1.0.30000527',
+255 silly addNameRange     '1.0.30000528',
+255 silly addNameRange     '1.0.30000529',
+255 silly addNameRange     '1.0.30000530',
+255 silly addNameRange     '1.0.30000531',
+255 silly addNameRange     '1.0.30000532',
+255 silly addNameRange     '1.0.30000533',
+255 silly addNameRange     '1.0.30000534',
+255 silly addNameRange     '1.0.30000535',
+255 silly addNameRange     '1.0.30000536',
+255 silly addNameRange     '1.0.30000537',
+255 silly addNameRange     '1.0.30000538',
+255 silly addNameRange     '1.0.30000539',
+255 silly addNameRange     '1.0.30000540',
+255 silly addNameRange     '1.0.30000541',
+255 silly addNameRange     '1.0.30000542',
+255 silly addNameRange     '1.0.30000543',
+255 silly addNameRange     '1.0.30000544',
+255 silly addNameRange     '1.0.30000545',
+255 silly addNameRange     '1.0.30000546',
+255 silly addNameRange     '1.0.30000547',
+255 silly addNameRange     '1.0.30000548',
+255 silly addNameRange     '1.0.30000549',
+255 silly addNameRange     '1.0.30000550',
+255 silly addNameRange     '1.0.30000551',
+255 silly addNameRange     '1.0.30000552',
+255 silly addNameRange     '1.0.30000553',
+255 silly addNameRange     '1.0.30000554',
+255 silly addNameRange     '1.0.30000555',
+255 silly addNameRange     '1.0.30000556',
+255 silly addNameRange     '1.0.30000557',
+255 silly addNameRange     '1.0.30000558',
+255 silly addNameRange     '1.0.30000559',
+255 silly addNameRange     '1.0.30000560',
+255 silly addNameRange     '1.0.30000561',
+255 silly addNameRange     '1.0.30000562',
+255 silly addNameRange     '1.0.30000563',
+255 silly addNameRange     '1.0.30000564',
+255 silly addNameRange     '1.0.30000565',
+255 silly addNameRange     '1.0.30000566',
+255 silly addNameRange     '1.0.30000567',
+255 silly addNameRange     '1.0.30000568',
+255 silly addNameRange     '1.0.30000569',
+255 silly addNameRange     '1.0.30000570',
+255 silly addNameRange     '1.0.30000572',
+255 silly addNameRange     '1.0.30000573',
+255 silly addNameRange     '1.0.30000574',
+255 silly addNameRange     '1.0.30000575',
+255 silly addNameRange     '1.0.30000576',
+255 silly addNameRange     '1.0.30000577',
+255 silly addNameRange     '1.0.30000578',
+255 silly addNameRange     '1.0.30000579',
+255 silly addNameRange     '1.0.30000580',
+255 silly addNameRange     '1.0.30000581',
+255 silly addNameRange     '1.0.30000582',
+255 silly addNameRange     '1.0.30000583',
+255 silly addNameRange     '1.0.30000584',
+255 silly addNameRange     '1.0.30000585',
+255 silly addNameRange     '1.0.30000586',
+255 silly addNameRange     '1.0.30000587',
+255 silly addNameRange     '1.0.30000588',
+255 silly addNameRange     '1.0.30000589',
+255 silly addNameRange     '1.0.30000590',
+255 silly addNameRange     '1.0.30000591',
+255 silly addNameRange     '1.0.30000592',
+255 silly addNameRange     '1.0.30000593',
+255 silly addNameRange     '1.0.30000594',
+255 silly addNameRange     '1.0.30000595',
+255 silly addNameRange     '1.0.30000596',
+255 silly addNameRange     '1.0.30000597',
+255 silly addNameRange     '1.0.30000598',
+255 silly addNameRange     '1.0.30000599',
+255 silly addNameRange     '1.0.30000600',
+255 silly addNameRange     '1.0.30000601' ] ]
+256 silly addNamed caniuse-db@1.0.30000601
+257 verbose addNamed "1.0.30000601" is a plain semver version for caniuse-db
+258 silly fetchAndShaCheck shasum 2d10c06bdfd312ea9777695a4d28439456b75942
+259 silly fetchAndShaCheck shasum 87f38f9f18f774a4ab4c8a232f5c5ce8872a9d15
+260 silly mapToRegistry name caniuse-db
+261 silly mapToRegistry using default registry
+262 silly mapToRegistry registry https://registry.npmjs.org/
+263 silly mapToRegistry uri https://registry.npmjs.org/caniuse-db
+264 verbose addRemoteTarball https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000601.tgz not in flight; adding
+265 verbose addRemoteTarball [ 'https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000601.tgz',
+265 verbose addRemoteTarball   '073c9d1c62edb399ecc783a7ab40698b5694d2fe' ]
+266 verbose addTmpTarball /tmp/npm-2716-56d368dd/registry.npmjs.org/normalize-range/-/normalize-range-0.1.2.tgz not in flight; adding
+267 verbose addTmpTarball already have metadata; skipping unpack for normalize-range@0.1.2
+268 verbose addTmpTarball /tmp/npm-2716-56d368dd/registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-3.3.0.tgz not in flight; adding
+269 verbose addTmpTarball already have metadata; skipping unpack for postcss-value-parser@3.3.0
+270 info retry fetch attempt 1 at 10:23:03 PM
+271 info attempt registry request try #1 at 10:23:03 PM
+272 http fetch GET https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000601.tgz
+273 http fetch 200 https://registry.npmjs.org/browserslist/-/browserslist-1.4.0.tgz
+274 silly fetchAndShaCheck shasum 9cfdcf5384d9158f5b70da2aa00b30e8ff019049
+275 silly cache afterAdd num2fraction@1.2.2
+276 verbose afterAdd /home/rico/.npm/num2fraction/1.2.2/package/package.json not in flight; writing
+277 verbose addTmpTarball /tmp/npm-2716-56d368dd/registry.npmjs.org/browserslist/-/browserslist-1.4.0.tgz not in flight; adding
+278 verbose addTmpTarball already have metadata; skipping unpack for browserslist@1.4.0
+279 verbose afterAdd /home/rico/.npm/num2fraction/1.2.2/package/package.json written
+280 silly cache afterAdd normalize-range@0.1.2
+281 verbose afterAdd /home/rico/.npm/normalize-range/0.1.2/package/package.json not in flight; writing
+282 silly cache afterAdd postcss-value-parser@3.3.0
+283 verbose afterAdd /home/rico/.npm/postcss-value-parser/3.3.0/package/package.json not in flight; writing
+284 verbose afterAdd /home/rico/.npm/normalize-range/0.1.2/package/package.json written
+285 verbose afterAdd /home/rico/.npm/postcss-value-parser/3.3.0/package/package.json written
+286 silly cache afterAdd browserslist@1.4.0
+287 verbose afterAdd /home/rico/.npm/browserslist/1.4.0/package/package.json not in flight; writing
+288 verbose afterAdd /home/rico/.npm/browserslist/1.4.0/package/package.json written
+289 http fetch 200 https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000601.tgz
+290 silly fetchAndShaCheck shasum 073c9d1c62edb399ecc783a7ab40698b5694d2fe
+291 verbose addTmpTarball /tmp/npm-2716-56d368dd/registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000601.tgz not in flight; adding
+292 verbose addTmpTarball already have metadata; skipping unpack for caniuse-db@1.0.30000601
+293 silly cache afterAdd caniuse-db@1.0.30000601
+294 verbose afterAdd /home/rico/.npm/caniuse-db/1.0.30000601/package/package.json not in flight; writing
+295 verbose afterAdd /home/rico/.npm/caniuse-db/1.0.30000601/package/package.json written
+296 silly fetchNamedPackageData fsevents
+297 silly mapToRegistry name fsevents
+298 silly mapToRegistry using default registry
+299 silly mapToRegistry registry https://registry.npmjs.org/
+300 silly mapToRegistry uri https://registry.npmjs.org/fsevents
+301 verbose request uri https://registry.npmjs.org/fsevents
+302 verbose request no auth needed
+303 info attempt registry request try #1 at 10:23:05 PM
+304 verbose etag W/"58352bb5-bb79"
+305 verbose lastModified Wed, 23 Nov 2016 05:40:05 GMT
+306 http request GET https://registry.npmjs.org/fsevents
+307 http 304 https://registry.npmjs.org/fsevents
+308 verbose headers { date: 'Tue, 20 Dec 2016 21:23:04 GMT',
+308 verbose headers   via: '1.1 varnish',
+308 verbose headers   'cache-control': 'max-age=300',
+308 verbose headers   etag: 'W/"58352bb5-bb79"',
+308 verbose headers   age: '230',
+308 verbose headers   connection: 'keep-alive',
+308 verbose headers   'x-served-by': 'cache-hhn1520-HHN',
+308 verbose headers   'x-cache': 'HIT',
+308 verbose headers   'x-cache-hits': '5',
+308 verbose headers   'x-timer': 'S1482268984.949058,VS0,VE0',
+308 verbose headers   vary: 'Accept-Encoding' }
+309 silly get cb [ 304,
+309 silly get   { date: 'Tue, 20 Dec 2016 21:23:04 GMT',
+309 silly get     via: '1.1 varnish',
+309 silly get     'cache-control': 'max-age=300',
+309 silly get     etag: 'W/"58352bb5-bb79"',
+309 silly get     age: '230',
+309 silly get     connection: 'keep-alive',
+309 silly get     'x-served-by': 'cache-hhn1520-HHN',
+309 silly get     'x-cache': 'HIT',
+309 silly get     'x-cache-hits': '5',
+309 silly get     'x-timer': 'S1482268984.949058,VS0,VE0',
+309 silly get     vary: 'Accept-Encoding' } ]
+310 verbose etag https://registry.npmjs.org/fsevents from cache
+311 verbose get saving fsevents to /home/rico/.npm/registry.npmjs.org/fsevents/.cache.json
+312 silly resolveWithNewModule fsevents@1.0.15 checking installable status
+313 silly loadAllDepsIntoIdealTree Finishing
+314 silly idealTree:prePrune travel-site@1.0.0
+314 silly idealTree:prePrune ├── ansi-regex@2.0.0
+314 silly idealTree:prePrune ├── ansi-styles@2.2.1
+314 silly idealTree:prePrune ├── anymatch@1.3.0
+314 silly idealTree:prePrune ├── archy@1.0.0
+314 silly idealTree:prePrune ├── arr-diff@2.0.0
+314 silly idealTree:prePrune ├── arr-flatten@1.0.1
+314 silly idealTree:prePrune ├── array-differ@1.0.0
+314 silly idealTree:prePrune ├── array-find-index@1.0.2
+314 silly idealTree:prePrune ├── array-uniq@1.0.3
+314 silly idealTree:prePrune ├── array-unique@0.2.1
+314 silly idealTree:prePrune ├── arrify@1.0.1
+314 silly idealTree:prePrune ├── async-each@1.0.1
+314 silly idealTree:prePrune ├── autoprefixer@6.5.4
+314 silly idealTree:prePrune ├── balanced-match@0.4.2
+314 silly idealTree:prePrune ├── beeper@1.1.1
+314 silly idealTree:prePrune ├── binary-extensions@1.8.0
+314 silly idealTree:prePrune ├── brace-expansion@1.1.6
+314 silly idealTree:prePrune ├── braces@1.8.5
+314 silly idealTree:prePrune ├── browserslist@1.4.0
+314 silly idealTree:prePrune ├── buffer-shims@1.0.0
+314 silly idealTree:prePrune ├── builtin-modules@1.1.1
+314 silly idealTree:prePrune ├── camelcase-keys@2.1.0
+314 silly idealTree:prePrune ├── camelcase@2.1.1
+314 silly idealTree:prePrune ├── caniuse-db@1.0.30000601
+314 silly idealTree:prePrune ├── chalk@1.1.3
+314 silly idealTree:prePrune ├── chokidar@1.6.1
+314 silly idealTree:prePrune ├── clone-stats@0.0.1
+314 silly idealTree:prePrune ├── clone@1.0.2
+314 silly idealTree:prePrune ├── concat-map@0.0.1
+314 silly idealTree:prePrune ├── core-util-is@1.0.2
+314 silly idealTree:prePrune ├── currently-unhandled@0.4.1
+314 silly idealTree:prePrune ├── dateformat@1.0.12
+314 silly idealTree:prePrune ├── decamelize@1.2.0
+314 silly idealTree:prePrune ├── defaults@1.0.3
+314 silly idealTree:prePrune ├── deprecated@0.0.1
+314 silly idealTree:prePrune ├── detect-file@0.1.0
+314 silly idealTree:prePrune ├─┬ duplexer2@0.0.2
+314 silly idealTree:prePrune │ └─┬ readable-stream@1.1.14
+314 silly idealTree:prePrune │   ├── core-util-is@1.0.2
+314 silly idealTree:prePrune │   ├── isarray@0.0.1
+314 silly idealTree:prePrune │   └── string_decoder@0.10.31
+314 silly idealTree:prePrune ├── end-of-stream@0.1.5
+314 silly idealTree:prePrune ├── error-ex@1.3.0
+314 silly idealTree:prePrune ├── escape-string-regexp@1.0.5
+314 silly idealTree:prePrune ├── expand-brackets@0.1.5
+314 silly idealTree:prePrune ├── expand-range@1.8.2
+314 silly idealTree:prePrune ├── expand-tilde@1.2.2
+314 silly idealTree:prePrune ├── extend@3.0.0
+314 silly idealTree:prePrune ├── extglob@0.3.2
+314 silly idealTree:prePrune ├── fancy-log@1.2.0
+314 silly idealTree:prePrune ├── filename-regex@2.0.0
+314 silly idealTree:prePrune ├── fill-range@2.2.3
+314 silly idealTree:prePrune ├── find-index@0.1.1
+314 silly idealTree:prePrune ├── find-up@1.1.2
+314 silly idealTree:prePrune ├── findup-sync@0.4.3
+314 silly idealTree:prePrune ├── fined@1.0.2
+314 silly idealTree:prePrune ├── first-chunk-stream@1.0.0
+314 silly idealTree:prePrune ├── flagged-respawn@0.3.2
+314 silly idealTree:prePrune ├── for-in@0.1.6
+314 silly idealTree:prePrune ├── for-own@0.1.4
+314 silly idealTree:prePrune ├── fs-exists-sync@0.1.0
+314 silly idealTree:prePrune ├── gaze@0.5.2
+314 silly idealTree:prePrune ├── get-stdin@4.0.1
+314 silly idealTree:prePrune ├── glob-base@0.3.0
+314 silly idealTree:prePrune ├── glob-parent@2.0.0
+314 silly idealTree:prePrune ├─┬ glob-stream@3.1.18
+314 silly idealTree:prePrune │ ├── readable-stream@1.0.34
+314 silly idealTree:prePrune │ └── through2@0.6.5
+314 silly idealTree:prePrune ├── glob-watcher@0.0.6
+314 silly idealTree:prePrune ├── glob@4.5.3
+314 silly idealTree:prePrune ├── glob2base@0.0.12
+314 silly idealTree:prePrune ├── global-modules@0.2.3
+314 silly idealTree:prePrune ├── global-prefix@0.1.5
+314 silly idealTree:prePrune ├─┬ globule@0.1.0
+314 silly idealTree:prePrune │ ├── glob@3.1.21
+314 silly idealTree:prePrune │ ├── graceful-fs@1.2.3
+314 silly idealTree:prePrune │ ├── inherits@1.0.2
+314 silly idealTree:prePrune │ └── minimatch@0.2.14
+314 silly idealTree:prePrune ├── glogg@1.0.0
+314 silly idealTree:prePrune ├── graceful-fs@4.1.11
+314 silly idealTree:prePrune ├── gulp-postcss@6.2.0
+314 silly idealTree:prePrune ├─┬ gulp-util@3.0.7
+314 silly idealTree:prePrune │ ├── object-assign@3.0.0
+314 silly idealTree:prePrune │ └─┬ vinyl@0.5.3
+314 silly idealTree:prePrune │   └── clone-stats@0.0.1
+314 silly idealTree:prePrune ├─┬ gulp-watch@4.3.11
+314 silly idealTree:prePrune │ ├── glob-parent@3.1.0
+314 silly idealTree:prePrune │ ├── is-extglob@2.1.1
+314 silly idealTree:prePrune │ └── is-glob@3.1.0
+314 silly idealTree:prePrune ├── gulp@3.9.1
+314 silly idealTree:prePrune ├── gulplog@1.0.0
+314 silly idealTree:prePrune ├── has-ansi@2.0.0
+314 silly idealTree:prePrune ├── has-flag@1.0.0
+314 silly idealTree:prePrune ├── has-gulplog@0.1.0
+314 silly idealTree:prePrune ├── homedir-polyfill@1.0.1
+314 silly idealTree:prePrune ├── hosted-git-info@2.1.5
+314 silly idealTree:prePrune ├── indent-string@2.1.0
+314 silly idealTree:prePrune ├── inflight@1.0.6
+314 silly idealTree:prePrune ├── inherits@2.0.3
+314 silly idealTree:prePrune ├── ini@1.3.4
+314 silly idealTree:prePrune ├── interpret@1.0.1
+314 silly idealTree:prePrune ├── is-absolute@0.2.6
+314 silly idealTree:prePrune ├── is-arrayish@0.2.1
+314 silly idealTree:prePrune ├── is-binary-path@1.0.1
+314 silly idealTree:prePrune ├── is-buffer@1.1.4
+314 silly idealTree:prePrune ├── is-builtin-module@1.0.0
+314 silly idealTree:prePrune ├── is-dotfile@1.0.2
+314 silly idealTree:prePrune ├── is-equal-shallow@0.1.3
+314 silly idealTree:prePrune ├── is-extendable@0.1.1
+314 silly idealTree:prePrune ├── is-extglob@1.0.0
+314 silly idealTree:prePrune ├── is-finite@1.0.2
+314 silly idealTree:prePrune ├── is-glob@2.0.1
+314 silly idealTree:prePrune ├── is-number@2.1.0
+314 silly idealTree:prePrune ├── is-posix-bracket@0.1.1
+314 silly idealTree:prePrune ├── is-primitive@2.0.0
+314 silly idealTree:prePrune ├── is-relative@0.2.1
+314 silly idealTree:prePrune ├── is-unc-path@0.1.2
+314 silly idealTree:prePrune ├── is-utf8@0.2.1
+314 silly idealTree:prePrune ├── is-windows@0.2.0
+314 silly idealTree:prePrune ├── isarray@0.0.1
+314 silly idealTree:prePrune ├── isexe@1.1.2
+314 silly idealTree:prePrune ├─┬ isobject@2.1.0
+314 silly idealTree:prePrune │ └── isarray@1.0.0
+314 silly idealTree:prePrune ├── jquery@3.1.1
+314 silly idealTree:prePrune ├── js-base64@2.1.9
+314 silly idealTree:prePrune ├── kind-of@3.1.0
+314 silly idealTree:prePrune ├── liftoff@2.3.0
+314 silly idealTree:prePrune ├── load-json-file@1.1.0
+314 silly idealTree:prePrune ├── lodash._basecopy@3.0.1
+314 silly idealTree:prePrune ├── lodash._basetostring@3.0.1
+314 silly idealTree:prePrune ├── lodash._basevalues@3.0.0
+314 silly idealTree:prePrune ├── lodash._getnative@3.9.1
+314 silly idealTree:prePrune ├── lodash._isiterateecall@3.0.9
+314 silly idealTree:prePrune ├── lodash._reescape@3.0.0
+314 silly idealTree:prePrune ├── lodash._reevaluate@3.0.0
+314 silly idealTree:prePrune ├── lodash._reinterpolate@3.0.0
+314 silly idealTree:prePrune ├── lodash._root@3.0.1
+314 silly idealTree:prePrune ├── lodash.assignwith@4.2.0
+314 silly idealTree:prePrune ├── lodash.escape@3.2.0
+314 silly idealTree:prePrune ├── lodash.isarguments@3.1.0
+314 silly idealTree:prePrune ├── lodash.isarray@3.0.4
+314 silly idealTree:prePrune ├── lodash.isempty@4.4.0
+314 silly idealTree:prePrune ├── lodash.isplainobject@4.0.6
+314 silly idealTree:prePrune ├── lodash.isstring@4.0.1
+314 silly idealTree:prePrune ├── lodash.keys@3.1.2
+314 silly idealTree:prePrune ├── lodash.mapvalues@4.6.0
+314 silly idealTree:prePrune ├── lodash.pick@4.4.0
+314 silly idealTree:prePrune ├── lodash.restparam@3.6.1
+314 silly idealTree:prePrune ├── lodash.template@3.6.2
+314 silly idealTree:prePrune ├── lodash.templatesettings@3.1.1
+314 silly idealTree:prePrune ├── lodash@1.0.2
+314 silly idealTree:prePrune ├── loud-rejection@1.6.0
+314 silly idealTree:prePrune ├── lru-cache@2.7.3
+314 silly idealTree:prePrune ├── map-cache@0.2.2
+314 silly idealTree:prePrune ├── map-obj@1.0.1
+314 silly idealTree:prePrune ├── meow@3.7.0
+314 silly idealTree:prePrune ├── micromatch@2.3.11
+314 silly idealTree:prePrune ├── minimatch@2.0.10
+314 silly idealTree:prePrune ├── minimist@1.2.0
+314 silly idealTree:prePrune ├─┬ mkdirp@0.5.1
+314 silly idealTree:prePrune │ └── minimist@0.0.8
+314 silly idealTree:prePrune ├── multipipe@0.1.2
+314 silly idealTree:prePrune ├── natives@1.1.0
+314 silly idealTree:prePrune ├── normalize-package-data@2.3.5
+314 silly idealTree:prePrune ├── normalize-path@2.0.1
+314 silly idealTree:prePrune ├── normalize-range@0.1.2
+314 silly idealTree:prePrune ├── normalize.css@5.0.0
+314 silly idealTree:prePrune ├── num2fraction@1.2.2
+314 silly idealTree:prePrune ├── number-is-nan@1.0.1
+314 silly idealTree:prePrune ├── object-assign@4.1.0
+314 silly idealTree:prePrune ├── object.omit@2.0.1
+314 silly idealTree:prePrune ├── once@1.3.3
+314 silly idealTree:prePrune ├── orchestrator@0.3.8
+314 silly idealTree:prePrune ├── ordered-read-streams@0.1.0
+314 silly idealTree:prePrune ├── os-homedir@1.0.2
+314 silly idealTree:prePrune ├── parse-filepath@1.0.1
+314 silly idealTree:prePrune ├── parse-glob@3.0.4
+314 silly idealTree:prePrune ├── parse-json@2.2.0
+314 silly idealTree:prePrune ├── parse-passwd@1.0.0
+314 silly idealTree:prePrune ├── path-dirname@1.0.2
+314 silly idealTree:prePrune ├── path-exists@2.1.0
+314 silly idealTree:prePrune ├── path-is-absolute@1.0.1
+314 silly idealTree:prePrune ├── path-root-regex@0.1.2
+314 silly idealTree:prePrune ├── path-root@0.1.1
+314 silly idealTree:prePrune ├── path-type@1.1.0
+314 silly idealTree:prePrune ├── pify@2.3.0
+314 silly idealTree:prePrune ├── pinkie-promise@2.0.1
+314 silly idealTree:prePrune ├── pinkie@2.0.4
+314 silly idealTree:prePrune ├── postcss-value-parser@3.3.0
+314 silly idealTree:prePrune ├─┬ postcss@5.2.6
+314 silly idealTree:prePrune │ └── supports-color@3.1.2
+314 silly idealTree:prePrune ├── preserve@0.2.0
+314 silly idealTree:prePrune ├── pretty-hrtime@1.0.3
+314 silly idealTree:prePrune ├── process-nextick-args@1.0.7
+314 silly idealTree:prePrune ├── randomatic@1.1.6
+314 silly idealTree:prePrune ├── read-pkg-up@1.0.1
+314 silly idealTree:prePrune ├── read-pkg@1.1.0
+314 silly idealTree:prePrune ├─┬ readable-stream@2.2.2
+314 silly idealTree:prePrune │ └── isarray@1.0.0
+314 silly idealTree:prePrune ├─┬ readdirp@2.1.0
+314 silly idealTree:prePrune │ └── minimatch@3.0.3
+314 silly idealTree:prePrune ├── rechoir@0.6.2
+314 silly idealTree:prePrune ├── redent@1.0.0
+314 silly idealTree:prePrune ├── regex-cache@0.4.3
+314 silly idealTree:prePrune ├── repeat-element@1.1.2
+314 silly idealTree:prePrune ├── repeat-string@1.6.1
+314 silly idealTree:prePrune ├── repeating@2.0.1
+314 silly idealTree:prePrune ├── replace-ext@0.0.1
+314 silly idealTree:prePrune ├── resolve-dir@0.1.1
+314 silly idealTree:prePrune ├── resolve@1.2.0
+314 silly idealTree:prePrune ├── semver@4.3.6
+314 silly idealTree:prePrune ├── sequencify@0.0.7
+314 silly idealTree:prePrune ├── set-immediate-shim@1.0.1
+314 silly idealTree:prePrune ├── sigmund@1.0.1
+314 silly idealTree:prePrune ├── signal-exit@3.0.2
+314 silly idealTree:prePrune ├── slash@1.0.0
+314 silly idealTree:prePrune ├── source-map@0.5.6
+314 silly idealTree:prePrune ├── sparkles@1.0.0
+314 silly idealTree:prePrune ├── spdx-correct@1.0.2
+314 silly idealTree:prePrune ├── spdx-expression-parse@1.0.4
+314 silly idealTree:prePrune ├── spdx-license-ids@1.2.2
+314 silly idealTree:prePrune ├── stream-consume@0.1.0
+314 silly idealTree:prePrune ├── string_decoder@0.10.31
+314 silly idealTree:prePrune ├── strip-ansi@3.0.1
+314 silly idealTree:prePrune ├─┬ strip-bom-stream@2.0.0
+314 silly idealTree:prePrune │ └── first-chunk-stream@2.0.0
+314 silly idealTree:prePrune ├── strip-bom@2.0.0
+314 silly idealTree:prePrune ├── strip-indent@1.0.1
+314 silly idealTree:prePrune ├── supports-color@2.0.0
+314 silly idealTree:prePrune ├── through2@2.0.3
+314 silly idealTree:prePrune ├── tildify@1.2.0
+314 silly idealTree:prePrune ├── time-stamp@1.0.1
+314 silly idealTree:prePrune ├── trim-newlines@1.0.0
+314 silly idealTree:prePrune ├── unc-path-regex@0.1.2
+314 silly idealTree:prePrune ├── unique-stream@1.0.0
+314 silly idealTree:prePrune ├── user-home@1.1.1
+314 silly idealTree:prePrune ├── util-deprecate@1.0.2
+314 silly idealTree:prePrune ├── v8flags@2.0.11
+314 silly idealTree:prePrune ├── validate-npm-package-license@3.0.1
+314 silly idealTree:prePrune ├── vinyl-file@2.0.0
+314 silly idealTree:prePrune ├─┬ vinyl-fs@0.3.14
+314 silly idealTree:prePrune │ ├── clone@0.2.0
+314 silly idealTree:prePrune │ ├── graceful-fs@3.0.11
+314 silly idealTree:prePrune │ ├── readable-stream@1.0.34
+314 silly idealTree:prePrune │ ├── strip-bom@1.0.0
+314 silly idealTree:prePrune │ ├── through2@0.6.5
+314 silly idealTree:prePrune │ └── vinyl@0.4.6
+314 silly idealTree:prePrune ├── vinyl-sourcemaps-apply@0.2.1
+314 silly idealTree:prePrune ├── vinyl@1.2.0
+314 silly idealTree:prePrune ├── which@1.2.12
+314 silly idealTree:prePrune ├── wrappy@1.0.2
+314 silly idealTree:prePrune └── xtend@4.0.1
+315 silly loadIdealTree Finishing
+316 silly currentTree travel-site@1.0.0
+316 silly currentTree ├── ansi-regex@2.0.0
+316 silly currentTree ├── ansi-styles@2.2.1
+316 silly currentTree ├── anymatch@1.3.0
+316 silly currentTree ├── archy@1.0.0
+316 silly currentTree ├── arr-diff@2.0.0
+316 silly currentTree ├── arr-flatten@1.0.1
+316 silly currentTree ├── array-differ@1.0.0
+316 silly currentTree ├── array-find-index@1.0.2
+316 silly currentTree ├── array-uniq@1.0.3
+316 silly currentTree ├── array-unique@0.2.1
+316 silly currentTree ├── arrify@1.0.1
+316 silly currentTree ├── async-each@1.0.1
+316 silly currentTree ├── balanced-match@0.4.2
+316 silly currentTree ├── beeper@1.1.1
+316 silly currentTree ├── binary-extensions@1.8.0
+316 silly currentTree ├── brace-expansion@1.1.6
+316 silly currentTree ├── braces@1.8.5
+316 silly currentTree ├── buffer-shims@1.0.0
+316 silly currentTree ├── builtin-modules@1.1.1
+316 silly currentTree ├── camelcase-keys@2.1.0
+316 silly currentTree ├── camelcase@2.1.1
+316 silly currentTree ├── chalk@1.1.3
+316 silly currentTree ├── chokidar@1.6.1
+316 silly currentTree ├── clone-stats@0.0.1
+316 silly currentTree ├── clone@1.0.2
+316 silly currentTree ├── concat-map@0.0.1
+316 silly currentTree ├── core-util-is@1.0.2
+316 silly currentTree ├── currently-unhandled@0.4.1
+316 silly currentTree ├── dateformat@1.0.12
+316 silly currentTree ├── decamelize@1.2.0
+316 silly currentTree ├── defaults@1.0.3
+316 silly currentTree ├── deprecated@0.0.1
+316 silly currentTree ├── detect-file@0.1.0
+316 silly currentTree ├─┬ duplexer2@0.0.2
+316 silly currentTree │ └─┬ readable-stream@1.1.14
+316 silly currentTree │   ├── core-util-is@1.0.2
+316 silly currentTree │   ├── isarray@0.0.1
+316 silly currentTree │   └── string_decoder@0.10.31
+316 silly currentTree ├── end-of-stream@0.1.5
+316 silly currentTree ├── error-ex@1.3.0
+316 silly currentTree ├── escape-string-regexp@1.0.5
+316 silly currentTree ├── expand-brackets@0.1.5
+316 silly currentTree ├── expand-range@1.8.2
+316 silly currentTree ├── expand-tilde@1.2.2
+316 silly currentTree ├── extend@3.0.0
+316 silly currentTree ├── extglob@0.3.2
+316 silly currentTree ├── fancy-log@1.2.0
+316 silly currentTree ├── filename-regex@2.0.0
+316 silly currentTree ├── fill-range@2.2.3
+316 silly currentTree ├── find-index@0.1.1
+316 silly currentTree ├── find-up@1.1.2
+316 silly currentTree ├── findup-sync@0.4.3
+316 silly currentTree ├── fined@1.0.2
+316 silly currentTree ├── first-chunk-stream@1.0.0
+316 silly currentTree ├── flagged-respawn@0.3.2
+316 silly currentTree ├── for-in@0.1.6
+316 silly currentTree ├── for-own@0.1.4
+316 silly currentTree ├── fs-exists-sync@0.1.0
+316 silly currentTree ├── gaze@0.5.2
+316 silly currentTree ├── get-stdin@4.0.1
+316 silly currentTree ├── glob-base@0.3.0
+316 silly currentTree ├── glob-parent@2.0.0
+316 silly currentTree ├─┬ glob-stream@3.1.18
+316 silly currentTree │ ├── readable-stream@1.0.34
+316 silly currentTree │ └── through2@0.6.5
+316 silly currentTree ├── glob-watcher@0.0.6
+316 silly currentTree ├── glob@4.5.3
+316 silly currentTree ├── glob2base@0.0.12
+316 silly currentTree ├── global-modules@0.2.3
+316 silly currentTree ├── global-prefix@0.1.5
+316 silly currentTree ├─┬ globule@0.1.0
+316 silly currentTree │ ├── glob@3.1.21
+316 silly currentTree │ ├── graceful-fs@1.2.3
+316 silly currentTree │ ├── inherits@1.0.2
+316 silly currentTree │ └── minimatch@0.2.14
+316 silly currentTree ├── glogg@1.0.0
+316 silly currentTree ├── graceful-fs@4.1.11
+316 silly currentTree ├── gulp-postcss@6.2.0
+316 silly currentTree ├─┬ gulp-util@3.0.7
+316 silly currentTree │ ├── object-assign@3.0.0
+316 silly currentTree │ └─┬ vinyl@0.5.3
+316 silly currentTree │   └── clone-stats@0.0.1
+316 silly currentTree ├─┬ gulp-watch@4.3.11
+316 silly currentTree │ ├── glob-parent@3.1.0
+316 silly currentTree │ ├── is-extglob@2.1.1
+316 silly currentTree │ └── is-glob@3.1.0
+316 silly currentTree ├── gulp@3.9.1
+316 silly currentTree ├── gulplog@1.0.0
+316 silly currentTree ├── has-ansi@2.0.0
+316 silly currentTree ├── has-flag@1.0.0
+316 silly currentTree ├── has-gulplog@0.1.0
+316 silly currentTree ├── homedir-polyfill@1.0.1
+316 silly currentTree ├── hosted-git-info@2.1.5
+316 silly currentTree ├── indent-string@2.1.0
+316 silly currentTree ├── inflight@1.0.6
+316 silly currentTree ├── inherits@2.0.3
+316 silly currentTree ├── ini@1.3.4
+316 silly currentTree ├── interpret@1.0.1
+316 silly currentTree ├── is-absolute@0.2.6
+316 silly currentTree ├── is-arrayish@0.2.1
+316 silly currentTree ├── is-binary-path@1.0.1
+316 silly currentTree ├── is-buffer@1.1.4
+316 silly currentTree ├── is-builtin-module@1.0.0
+316 silly currentTree ├── is-dotfile@1.0.2
+316 silly currentTree ├── is-equal-shallow@0.1.3
+316 silly currentTree ├── is-extendable@0.1.1
+316 silly currentTree ├── is-extglob@1.0.0
+316 silly currentTree ├── is-finite@1.0.2
+316 silly currentTree ├── is-glob@2.0.1
+316 silly currentTree ├── is-number@2.1.0
+316 silly currentTree ├── is-posix-bracket@0.1.1
+316 silly currentTree ├── is-primitive@2.0.0
+316 silly currentTree ├── is-relative@0.2.1
+316 silly currentTree ├── is-unc-path@0.1.2
+316 silly currentTree ├── is-utf8@0.2.1
+316 silly currentTree ├── is-windows@0.2.0
+316 silly currentTree ├── isarray@0.0.1
+316 silly currentTree ├── isexe@1.1.2
+316 silly currentTree ├─┬ isobject@2.1.0
+316 silly currentTree │ └── isarray@1.0.0
+316 silly currentTree ├── jquery@3.1.1
+316 silly currentTree ├── js-base64@2.1.9
+316 silly currentTree ├── kind-of@3.1.0
+316 silly currentTree ├── liftoff@2.3.0
+316 silly currentTree ├── load-json-file@1.1.0
+316 silly currentTree ├── lodash._basecopy@3.0.1
+316 silly currentTree ├── lodash._basetostring@3.0.1
+316 silly currentTree ├── lodash._basevalues@3.0.0
+316 silly currentTree ├── lodash._getnative@3.9.1
+316 silly currentTree ├── lodash._isiterateecall@3.0.9
+316 silly currentTree ├── lodash._reescape@3.0.0
+316 silly currentTree ├── lodash._reevaluate@3.0.0
+316 silly currentTree ├── lodash._reinterpolate@3.0.0
+316 silly currentTree ├── lodash._root@3.0.1
+316 silly currentTree ├── lodash.assignwith@4.2.0
+316 silly currentTree ├── lodash.escape@3.2.0
+316 silly currentTree ├── lodash.isarguments@3.1.0
+316 silly currentTree ├── lodash.isarray@3.0.4
+316 silly currentTree ├── lodash.isempty@4.4.0
+316 silly currentTree ├── lodash.isplainobject@4.0.6
+316 silly currentTree ├── lodash.isstring@4.0.1
+316 silly currentTree ├── lodash.keys@3.1.2
+316 silly currentTree ├── lodash.mapvalues@4.6.0
+316 silly currentTree ├── lodash.pick@4.4.0
+316 silly currentTree ├── lodash.restparam@3.6.1
+316 silly currentTree ├── lodash.template@3.6.2
+316 silly currentTree ├── lodash.templatesettings@3.1.1
+316 silly currentTree ├── lodash@1.0.2
+316 silly currentTree ├── loud-rejection@1.6.0
+316 silly currentTree ├── lru-cache@2.7.3
+316 silly currentTree ├── map-cache@0.2.2
+316 silly currentTree ├── map-obj@1.0.1
+316 silly currentTree ├── meow@3.7.0
+316 silly currentTree ├── micromatch@2.3.11
+316 silly currentTree ├── minimatch@2.0.10
+316 silly currentTree ├── minimist@1.2.0
+316 silly currentTree ├─┬ mkdirp@0.5.1
+316 silly currentTree │ └── minimist@0.0.8
+316 silly currentTree ├── multipipe@0.1.2
+316 silly currentTree ├── natives@1.1.0
+316 silly currentTree ├── normalize-package-data@2.3.5
+316 silly currentTree ├── normalize-path@2.0.1
+316 silly currentTree ├── normalize.css@5.0.0
+316 silly currentTree ├── number-is-nan@1.0.1
+316 silly currentTree ├── object-assign@4.1.0
+316 silly currentTree ├── object.omit@2.0.1
+316 silly currentTree ├── once@1.3.3
+316 silly currentTree ├── orchestrator@0.3.8
+316 silly currentTree ├── ordered-read-streams@0.1.0
+316 silly currentTree ├── os-homedir@1.0.2
+316 silly currentTree ├── parse-filepath@1.0.1
+316 silly currentTree ├── parse-glob@3.0.4
+316 silly currentTree ├── parse-json@2.2.0
+316 silly currentTree ├── parse-passwd@1.0.0
+316 silly currentTree ├── path-dirname@1.0.2
+316 silly currentTree ├── path-exists@2.1.0
+316 silly currentTree ├── path-is-absolute@1.0.1
+316 silly currentTree ├── path-root-regex@0.1.2
+316 silly currentTree ├── path-root@0.1.1
+316 silly currentTree ├── path-type@1.1.0
+316 silly currentTree ├── pify@2.3.0
+316 silly currentTree ├── pinkie-promise@2.0.1
+316 silly currentTree ├── pinkie@2.0.4
+316 silly currentTree ├─┬ postcss@5.2.6
+316 silly currentTree │ └── supports-color@3.1.2
+316 silly currentTree ├── preserve@0.2.0
+316 silly currentTree ├── pretty-hrtime@1.0.3
+316 silly currentTree ├── process-nextick-args@1.0.7
+316 silly currentTree ├── randomatic@1.1.6
+316 silly currentTree ├── read-pkg-up@1.0.1
+316 silly currentTree ├── read-pkg@1.1.0
+316 silly currentTree ├─┬ readable-stream@2.2.2
+316 silly currentTree │ └── isarray@1.0.0
+316 silly currentTree ├─┬ readdirp@2.1.0
+316 silly currentTree │ └── minimatch@3.0.3
+316 silly currentTree ├── rechoir@0.6.2
+316 silly currentTree ├── redent@1.0.0
+316 silly currentTree ├── regex-cache@0.4.3
+316 silly currentTree ├── repeat-element@1.1.2
+316 silly currentTree ├── repeat-string@1.6.1
+316 silly currentTree ├── repeating@2.0.1
+316 silly currentTree ├── replace-ext@0.0.1
+316 silly currentTree ├── resolve-dir@0.1.1
+316 silly currentTree ├── resolve@1.2.0
+316 silly currentTree ├── semver@4.3.6
+316 silly currentTree ├── sequencify@0.0.7
+316 silly currentTree ├── set-immediate-shim@1.0.1
+316 silly currentTree ├── sigmund@1.0.1
+316 silly currentTree ├── signal-exit@3.0.2
+316 silly currentTree ├── slash@1.0.0
+316 silly currentTree ├── source-map@0.5.6
+316 silly currentTree ├── sparkles@1.0.0
+316 silly currentTree ├── spdx-correct@1.0.2
+316 silly currentTree ├── spdx-expression-parse@1.0.4
+316 silly currentTree ├── spdx-license-ids@1.2.2
+316 silly currentTree ├── stream-consume@0.1.0
+316 silly currentTree ├── string_decoder@0.10.31
+316 silly currentTree ├── strip-ansi@3.0.1
+316 silly currentTree ├─┬ strip-bom-stream@2.0.0
+316 silly currentTree │ └── first-chunk-stream@2.0.0
+316 silly currentTree ├── strip-bom@2.0.0
+316 silly currentTree ├── strip-indent@1.0.1
+316 silly currentTree ├── supports-color@2.0.0
+316 silly currentTree ├── through2@2.0.3
+316 silly currentTree ├── tildify@1.2.0
+316 silly currentTree ├── time-stamp@1.0.1
+316 silly currentTree ├── trim-newlines@1.0.0
+316 silly currentTree ├── unc-path-regex@0.1.2
+316 silly currentTree ├── unique-stream@1.0.0
+316 silly currentTree ├── user-home@1.1.1
+316 silly currentTree ├── util-deprecate@1.0.2
+316 silly currentTree ├── v8flags@2.0.11
+316 silly currentTree ├── validate-npm-package-license@3.0.1
+316 silly currentTree ├── vinyl-file@2.0.0
+316 silly currentTree ├─┬ vinyl-fs@0.3.14
+316 silly currentTree │ ├── clone@0.2.0
+316 silly currentTree │ ├── graceful-fs@3.0.11
+316 silly currentTree │ ├── readable-stream@1.0.34
+316 silly currentTree │ ├── strip-bom@1.0.0
+316 silly currentTree │ ├── through2@0.6.5
+316 silly currentTree │ └── vinyl@0.4.6
+316 silly currentTree ├── vinyl-sourcemaps-apply@0.2.1
+316 silly currentTree ├── vinyl@1.2.0
+316 silly currentTree ├── which@1.2.12
+316 silly currentTree ├── wrappy@1.0.2
+316 silly currentTree └── xtend@4.0.1
+317 silly idealTree travel-site@1.0.0
+317 silly idealTree ├── ansi-regex@2.0.0
+317 silly idealTree ├── ansi-styles@2.2.1
+317 silly idealTree ├── anymatch@1.3.0
+317 silly idealTree ├── archy@1.0.0
+317 silly idealTree ├── arr-diff@2.0.0
+317 silly idealTree ├── arr-flatten@1.0.1
+317 silly idealTree ├── array-differ@1.0.0
+317 silly idealTree ├── array-find-index@1.0.2
+317 silly idealTree ├── array-uniq@1.0.3
+317 silly idealTree ├── array-unique@0.2.1
+317 silly idealTree ├── arrify@1.0.1
+317 silly idealTree ├── async-each@1.0.1
+317 silly idealTree ├── autoprefixer@6.5.4
+317 silly idealTree ├── balanced-match@0.4.2
+317 silly idealTree ├── beeper@1.1.1
+317 silly idealTree ├── binary-extensions@1.8.0
+317 silly idealTree ├── brace-expansion@1.1.6
+317 silly idealTree ├── braces@1.8.5
+317 silly idealTree ├── browserslist@1.4.0
+317 silly idealTree ├── buffer-shims@1.0.0
+317 silly idealTree ├── builtin-modules@1.1.1
+317 silly idealTree ├── camelcase-keys@2.1.0
+317 silly idealTree ├── camelcase@2.1.1
+317 silly idealTree ├── caniuse-db@1.0.30000601
+317 silly idealTree ├── chalk@1.1.3
+317 silly idealTree ├── chokidar@1.6.1
+317 silly idealTree ├── clone-stats@0.0.1
+317 silly idealTree ├── clone@1.0.2
+317 silly idealTree ├── concat-map@0.0.1
+317 silly idealTree ├── core-util-is@1.0.2
+317 silly idealTree ├── currently-unhandled@0.4.1
+317 silly idealTree ├── dateformat@1.0.12
+317 silly idealTree ├── decamelize@1.2.0
+317 silly idealTree ├── defaults@1.0.3
+317 silly idealTree ├── deprecated@0.0.1
+317 silly idealTree ├── detect-file@0.1.0
+317 silly idealTree ├─┬ duplexer2@0.0.2
+317 silly idealTree │ └─┬ readable-stream@1.1.14
+317 silly idealTree │   ├── core-util-is@1.0.2
+317 silly idealTree │   ├── isarray@0.0.1
+317 silly idealTree │   └── string_decoder@0.10.31
+317 silly idealTree ├── end-of-stream@0.1.5
+317 silly idealTree ├── error-ex@1.3.0
+317 silly idealTree ├── escape-string-regexp@1.0.5
+317 silly idealTree ├── expand-brackets@0.1.5
+317 silly idealTree ├── expand-range@1.8.2
+317 silly idealTree ├── expand-tilde@1.2.2
+317 silly idealTree ├── extend@3.0.0
+317 silly idealTree ├── extglob@0.3.2
+317 silly idealTree ├── fancy-log@1.2.0
+317 silly idealTree ├── filename-regex@2.0.0
+317 silly idealTree ├── fill-range@2.2.3
+317 silly idealTree ├── find-index@0.1.1
+317 silly idealTree ├── find-up@1.1.2
+317 silly idealTree ├── findup-sync@0.4.3
+317 silly idealTree ├── fined@1.0.2
+317 silly idealTree ├── first-chunk-stream@1.0.0
+317 silly idealTree ├── flagged-respawn@0.3.2
+317 silly idealTree ├── for-in@0.1.6
+317 silly idealTree ├── for-own@0.1.4
+317 silly idealTree ├── fs-exists-sync@0.1.0
+317 silly idealTree ├── gaze@0.5.2
+317 silly idealTree ├── get-stdin@4.0.1
+317 silly idealTree ├── glob-base@0.3.0
+317 silly idealTree ├── glob-parent@2.0.0
+317 silly idealTree ├─┬ glob-stream@3.1.18
+317 silly idealTree │ ├── readable-stream@1.0.34
+317 silly idealTree │ └── through2@0.6.5
+317 silly idealTree ├── glob-watcher@0.0.6
+317 silly idealTree ├── glob@4.5.3
+317 silly idealTree ├── glob2base@0.0.12
+317 silly idealTree ├── global-modules@0.2.3
+317 silly idealTree ├── global-prefix@0.1.5
+317 silly idealTree ├─┬ globule@0.1.0
+317 silly idealTree │ ├── glob@3.1.21
+317 silly idealTree │ ├── graceful-fs@1.2.3
+317 silly idealTree │ ├── inherits@1.0.2
+317 silly idealTree │ └── minimatch@0.2.14
+317 silly idealTree ├── glogg@1.0.0
+317 silly idealTree ├── graceful-fs@4.1.11
+317 silly idealTree ├── gulp-postcss@6.2.0
+317 silly idealTree ├─┬ gulp-util@3.0.7
+317 silly idealTree │ ├── object-assign@3.0.0
+317 silly idealTree │ └─┬ vinyl@0.5.3
+317 silly idealTree │   └── clone-stats@0.0.1
+317 silly idealTree ├─┬ gulp-watch@4.3.11
+317 silly idealTree │ ├── glob-parent@3.1.0
+317 silly idealTree │ ├── is-extglob@2.1.1
+317 silly idealTree │ └── is-glob@3.1.0
+317 silly idealTree ├── gulp@3.9.1
+317 silly idealTree ├── gulplog@1.0.0
+317 silly idealTree ├── has-ansi@2.0.0
+317 silly idealTree ├── has-flag@1.0.0
+317 silly idealTree ├── has-gulplog@0.1.0
+317 silly idealTree ├── homedir-polyfill@1.0.1
+317 silly idealTree ├── hosted-git-info@2.1.5
+317 silly idealTree ├── indent-string@2.1.0
+317 silly idealTree ├── inflight@1.0.6
+317 silly idealTree ├── inherits@2.0.3
+317 silly idealTree ├── ini@1.3.4
+317 silly idealTree ├── interpret@1.0.1
+317 silly idealTree ├── is-absolute@0.2.6
+317 silly idealTree ├── is-arrayish@0.2.1
+317 silly idealTree ├── is-binary-path@1.0.1
+317 silly idealTree ├── is-buffer@1.1.4
+317 silly idealTree ├── is-builtin-module@1.0.0
+317 silly idealTree ├── is-dotfile@1.0.2
+317 silly idealTree ├── is-equal-shallow@0.1.3
+317 silly idealTree ├── is-extendable@0.1.1
+317 silly idealTree ├── is-extglob@1.0.0
+317 silly idealTree ├── is-finite@1.0.2
+317 silly idealTree ├── is-glob@2.0.1
+317 silly idealTree ├── is-number@2.1.0
+317 silly idealTree ├── is-posix-bracket@0.1.1
+317 silly idealTree ├── is-primitive@2.0.0
+317 silly idealTree ├── is-relative@0.2.1
+317 silly idealTree ├── is-unc-path@0.1.2
+317 silly idealTree ├── is-utf8@0.2.1
+317 silly idealTree ├── is-windows@0.2.0
+317 silly idealTree ├── isarray@0.0.1
+317 silly idealTree ├── isexe@1.1.2
+317 silly idealTree ├─┬ isobject@2.1.0
+317 silly idealTree │ └── isarray@1.0.0
+317 silly idealTree ├── jquery@3.1.1
+317 silly idealTree ├── js-base64@2.1.9
+317 silly idealTree ├── kind-of@3.1.0
+317 silly idealTree ├── liftoff@2.3.0
+317 silly idealTree ├── load-json-file@1.1.0
+317 silly idealTree ├── lodash._basecopy@3.0.1
+317 silly idealTree ├── lodash._basetostring@3.0.1
+317 silly idealTree ├── lodash._basevalues@3.0.0
+317 silly idealTree ├── lodash._getnative@3.9.1
+317 silly idealTree ├── lodash._isiterateecall@3.0.9
+317 silly idealTree ├── lodash._reescape@3.0.0
+317 silly idealTree ├── lodash._reevaluate@3.0.0
+317 silly idealTree ├── lodash._reinterpolate@3.0.0
+317 silly idealTree ├── lodash._root@3.0.1
+317 silly idealTree ├── lodash.assignwith@4.2.0
+317 silly idealTree ├── lodash.escape@3.2.0
+317 silly idealTree ├── lodash.isarguments@3.1.0
+317 silly idealTree ├── lodash.isarray@3.0.4
+317 silly idealTree ├── lodash.isempty@4.4.0
+317 silly idealTree ├── lodash.isplainobject@4.0.6
+317 silly idealTree ├── lodash.isstring@4.0.1
+317 silly idealTree ├── lodash.keys@3.1.2
+317 silly idealTree ├── lodash.mapvalues@4.6.0
+317 silly idealTree ├── lodash.pick@4.4.0
+317 silly idealTree ├── lodash.restparam@3.6.1
+317 silly idealTree ├── lodash.template@3.6.2
+317 silly idealTree ├── lodash.templatesettings@3.1.1
+317 silly idealTree ├── lodash@1.0.2
+317 silly idealTree ├── loud-rejection@1.6.0
+317 silly idealTree ├── lru-cache@2.7.3
+317 silly idealTree ├── map-cache@0.2.2
+317 silly idealTree ├── map-obj@1.0.1
+317 silly idealTree ├── meow@3.7.0
+317 silly idealTree ├── micromatch@2.3.11
+317 silly idealTree ├── minimatch@2.0.10
+317 silly idealTree ├── minimist@1.2.0
+317 silly idealTree ├─┬ mkdirp@0.5.1
+317 silly idealTree │ └── minimist@0.0.8
+317 silly idealTree ├── multipipe@0.1.2
+317 silly idealTree ├── natives@1.1.0
+317 silly idealTree ├── normalize-package-data@2.3.5
+317 silly idealTree ├── normalize-path@2.0.1
+317 silly idealTree ├── normalize-range@0.1.2
+317 silly idealTree ├── normalize.css@5.0.0
+317 silly idealTree ├── num2fraction@1.2.2
+317 silly idealTree ├── number-is-nan@1.0.1
+317 silly idealTree ├── object-assign@4.1.0
+317 silly idealTree ├── object.omit@2.0.1
+317 silly idealTree ├── once@1.3.3
+317 silly idealTree ├── orchestrator@0.3.8
+317 silly idealTree ├── ordered-read-streams@0.1.0
+317 silly idealTree ├── os-homedir@1.0.2
+317 silly idealTree ├── parse-filepath@1.0.1
+317 silly idealTree ├── parse-glob@3.0.4
+317 silly idealTree ├── parse-json@2.2.0
+317 silly idealTree ├── parse-passwd@1.0.0
+317 silly idealTree ├── path-dirname@1.0.2
+317 silly idealTree ├── path-exists@2.1.0
+317 silly idealTree ├── path-is-absolute@1.0.1
+317 silly idealTree ├── path-root-regex@0.1.2
+317 silly idealTree ├── path-root@0.1.1
+317 silly idealTree ├── path-type@1.1.0
+317 silly idealTree ├── pify@2.3.0
+317 silly idealTree ├── pinkie-promise@2.0.1
+317 silly idealTree ├── pinkie@2.0.4
+317 silly idealTree ├── postcss-value-parser@3.3.0
+317 silly idealTree ├─┬ postcss@5.2.6
+317 silly idealTree │ └── supports-color@3.1.2
+317 silly idealTree ├── preserve@0.2.0
+317 silly idealTree ├── pretty-hrtime@1.0.3
+317 silly idealTree ├── process-nextick-args@1.0.7
+317 silly idealTree ├── randomatic@1.1.6
+317 silly idealTree ├── read-pkg-up@1.0.1
+317 silly idealTree ├── read-pkg@1.1.0
+317 silly idealTree ├─┬ readable-stream@2.2.2
+317 silly idealTree │ └── isarray@1.0.0
+317 silly idealTree ├─┬ readdirp@2.1.0
+317 silly idealTree │ └── minimatch@3.0.3
+317 silly idealTree ├── rechoir@0.6.2
+317 silly idealTree ├── redent@1.0.0
+317 silly idealTree ├── regex-cache@0.4.3
+317 silly idealTree ├── repeat-element@1.1.2
+317 silly idealTree ├── repeat-string@1.6.1
+317 silly idealTree ├── repeating@2.0.1
+317 silly idealTree ├── replace-ext@0.0.1
+317 silly idealTree ├── resolve-dir@0.1.1
+317 silly idealTree ├── resolve@1.2.0
+317 silly idealTree ├── semver@4.3.6
+317 silly idealTree ├── sequencify@0.0.7
+317 silly idealTree ├── set-immediate-shim@1.0.1
+317 silly idealTree ├── sigmund@1.0.1
+317 silly idealTree ├── signal-exit@3.0.2
+317 silly idealTree ├── slash@1.0.0
+317 silly idealTree ├── source-map@0.5.6
+317 silly idealTree ├── sparkles@1.0.0
+317 silly idealTree ├── spdx-correct@1.0.2
+317 silly idealTree ├── spdx-expression-parse@1.0.4
+317 silly idealTree ├── spdx-license-ids@1.2.2
+317 silly idealTree ├── stream-consume@0.1.0
+317 silly idealTree ├── string_decoder@0.10.31
+317 silly idealTree ├── strip-ansi@3.0.1
+317 silly idealTree ├─┬ strip-bom-stream@2.0.0
+317 silly idealTree │ └── first-chunk-stream@2.0.0
+317 silly idealTree ├── strip-bom@2.0.0
+317 silly idealTree ├── strip-indent@1.0.1
+317 silly idealTree ├── supports-color@2.0.0
+317 silly idealTree ├── through2@2.0.3
+317 silly idealTree ├── tildify@1.2.0
+317 silly idealTree ├── time-stamp@1.0.1
+317 silly idealTree ├── trim-newlines@1.0.0
+317 silly idealTree ├── unc-path-regex@0.1.2
+317 silly idealTree ├── unique-stream@1.0.0
+317 silly idealTree ├── user-home@1.1.1
+317 silly idealTree ├── util-deprecate@1.0.2
+317 silly idealTree ├── v8flags@2.0.11
+317 silly idealTree ├── validate-npm-package-license@3.0.1
+317 silly idealTree ├── vinyl-file@2.0.0
+317 silly idealTree ├─┬ vinyl-fs@0.3.14
+317 silly idealTree │ ├── clone@0.2.0
+317 silly idealTree │ ├── graceful-fs@3.0.11
+317 silly idealTree │ ├── readable-stream@1.0.34
+317 silly idealTree │ ├── strip-bom@1.0.0
+317 silly idealTree │ ├── through2@0.6.5
+317 silly idealTree │ └── vinyl@0.4.6
+317 silly idealTree ├── vinyl-sourcemaps-apply@0.2.1
+317 silly idealTree ├── vinyl@1.2.0
+317 silly idealTree ├── which@1.2.12
+317 silly idealTree ├── wrappy@1.0.2
+317 silly idealTree └── xtend@4.0.1
+318 silly generateActionsToTake Starting
+319 silly install generateActionsToTake
+320 silly generateActionsToTake Finishing
+321 silly diffTrees action count 6
+322 silly diffTrees add caniuse-db@1.0.30000601
+323 silly diffTrees add browserslist@1.4.0
+324 silly diffTrees add normalize-range@0.1.2
+325 silly diffTrees add num2fraction@1.2.2
+326 silly diffTrees add postcss-value-parser@3.3.0
+327 silly diffTrees add autoprefixer@6.5.4
+328 silly decomposeActions action count 48
+329 silly decomposeActions fetch caniuse-db@1.0.30000601
+330 silly decomposeActions extract caniuse-db@1.0.30000601
+331 silly decomposeActions test caniuse-db@1.0.30000601
+332 silly decomposeActions preinstall caniuse-db@1.0.30000601
+333 silly decomposeActions build caniuse-db@1.0.30000601
+334 silly decomposeActions install caniuse-db@1.0.30000601
+335 silly decomposeActions postinstall caniuse-db@1.0.30000601
+336 silly decomposeActions finalize caniuse-db@1.0.30000601
+337 silly decomposeActions fetch browserslist@1.4.0
+338 silly decomposeActions extract browserslist@1.4.0
+339 silly decomposeActions test browserslist@1.4.0
+340 silly decomposeActions preinstall browserslist@1.4.0
+341 silly decomposeActions build browserslist@1.4.0
+342 silly decomposeActions install browserslist@1.4.0
+343 silly decomposeActions postinstall browserslist@1.4.0
+344 silly decomposeActions finalize browserslist@1.4.0
+345 silly decomposeActions fetch normalize-range@0.1.2
+346 silly decomposeActions extract normalize-range@0.1.2
+347 silly decomposeActions test normalize-range@0.1.2
+348 silly decomposeActions preinstall normalize-range@0.1.2
+349 silly decomposeActions build normalize-range@0.1.2
+350 silly decomposeActions install normalize-range@0.1.2
+351 silly decomposeActions postinstall normalize-range@0.1.2
+352 silly decomposeActions finalize normalize-range@0.1.2
+353 silly decomposeActions fetch num2fraction@1.2.2
+354 silly decomposeActions extract num2fraction@1.2.2
+355 silly decomposeActions test num2fraction@1.2.2
+356 silly decomposeActions preinstall num2fraction@1.2.2
+357 silly decomposeActions build num2fraction@1.2.2
+358 silly decomposeActions install num2fraction@1.2.2
+359 silly decomposeActions postinstall num2fraction@1.2.2
+360 silly decomposeActions finalize num2fraction@1.2.2
+361 silly decomposeActions fetch postcss-value-parser@3.3.0
+362 silly decomposeActions extract postcss-value-parser@3.3.0
+363 silly decomposeActions test postcss-value-parser@3.3.0
+364 silly decomposeActions preinstall postcss-value-parser@3.3.0
+365 silly decomposeActions build postcss-value-parser@3.3.0
+366 silly decomposeActions install postcss-value-parser@3.3.0
+367 silly decomposeActions postinstall postcss-value-parser@3.3.0
+368 silly decomposeActions finalize postcss-value-parser@3.3.0
+369 silly decomposeActions fetch autoprefixer@6.5.4
+370 silly decomposeActions extract autoprefixer@6.5.4
+371 silly decomposeActions test autoprefixer@6.5.4
+372 silly decomposeActions preinstall autoprefixer@6.5.4
+373 silly decomposeActions build autoprefixer@6.5.4
+374 silly decomposeActions install autoprefixer@6.5.4
+375 silly decomposeActions postinstall autoprefixer@6.5.4
+376 silly decomposeActions finalize autoprefixer@6.5.4
+377 silly executeActions Starting
+378 silly install executeActions
+379 silly doSerial global-install 0
+380 silly doParallel fetch 6
+381 verbose lock using /home/rico/.npm/_locks/staging-2ac1ea61f794f1ca.lock for /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging
+382 silly doParallel extract 6
+383 silly extract caniuse-db@1.0.30000601
+384 silly extract browserslist@1.4.0
+385 silly extract normalize-range@0.1.2
+386 silly extract num2fraction@1.2.2
+387 silly extract postcss-value-parser@3.3.0
+388 silly extract autoprefixer@6.5.4
+389 verbose unbuild node_modules/.staging/caniuse-db-e78e4ec3
+390 verbose unbuild node_modules/.staging/normalize-range-9fe403e6
+391 verbose unbuild node_modules/.staging/num2fraction-eaa4d5af
+392 verbose unbuild node_modules/.staging/postcss-value-parser-894f0b44
+393 verbose unbuild node_modules/.staging/autoprefixer-2d620b90
+394 verbose unbuild node_modules/.staging/browserslist-72eb2973
+395 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/caniuse-db-e78e4ec3 is being purged from base /media/sf_testapps/mastering-the-modern-workflow/travel-site
+396 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/caniuse-db-e78e4ec3
+397 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/normalize-range-9fe403e6 is being purged from base /media/sf_testapps/mastering-the-modern-workflow/travel-site
+398 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/normalize-range-9fe403e6
+399 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/num2fraction-eaa4d5af is being purged from base /media/sf_testapps/mastering-the-modern-workflow/travel-site
+400 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/num2fraction-eaa4d5af
+401 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/postcss-value-parser-894f0b44 is being purged from base /media/sf_testapps/mastering-the-modern-workflow/travel-site
+402 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/postcss-value-parser-894f0b44
+403 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/autoprefixer-2d620b90 is being purged from base /media/sf_testapps/mastering-the-modern-workflow/travel-site
+404 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/autoprefixer-2d620b90
+405 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/browserslist-72eb2973 is being purged from base /media/sf_testapps/mastering-the-modern-workflow/travel-site
+406 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/browserslist-72eb2973
+407 verbose tar unpack /home/rico/.npm/caniuse-db/1.0.30000601/package.tgz
+408 verbose tar unpacking to /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/caniuse-db-e78e4ec3
+409 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/caniuse-db-e78e4ec3 is being purged
+410 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/caniuse-db-e78e4ec3
+411 verbose tar unpack /home/rico/.npm/normalize-range/0.1.2/package.tgz
+412 verbose tar unpacking to /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/normalize-range-9fe403e6
+413 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/normalize-range-9fe403e6 is being purged
+414 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/normalize-range-9fe403e6
+415 verbose tar unpack /home/rico/.npm/num2fraction/1.2.2/package.tgz
+416 verbose tar unpacking to /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/num2fraction-eaa4d5af
+417 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/num2fraction-eaa4d5af is being purged
+418 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/num2fraction-eaa4d5af
+419 verbose tar unpack /home/rico/.npm/postcss-value-parser/3.3.0/package.tgz
+420 verbose tar unpacking to /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/postcss-value-parser-894f0b44
+421 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/postcss-value-parser-894f0b44 is being purged
+422 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/postcss-value-parser-894f0b44
+423 verbose tar unpack /home/rico/.npm/autoprefixer/6.5.4/package.tgz
+424 verbose tar unpacking to /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/autoprefixer-2d620b90
+425 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/autoprefixer-2d620b90 is being purged
+426 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/autoprefixer-2d620b90
+427 verbose tar unpack /home/rico/.npm/browserslist/1.4.0/package.tgz
+428 verbose tar unpacking to /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/browserslist-72eb2973
+429 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/browserslist-72eb2973 is being purged
+430 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/browserslist-72eb2973
+431 silly gunzTarPerm modes [ '755', '644' ]
+432 silly gunzTarPerm modes [ '755', '644' ]
+433 silly gunzTarPerm modes [ '755', '644' ]
+434 silly gunzTarPerm modes [ '755', '644' ]
+435 silly gunzTarPerm modes [ '755', '644' ]
+436 silly gunzTarPerm modes [ '755', '644' ]
+437 silly gunzTarPerm extractEntry package.json
+438 silly gunzTarPerm extractEntry package.json
+439 silly gunzTarPerm extractEntry package.json
+440 silly gunzTarPerm extractEntry package.json
+441 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+442 silly gunzTarPerm extractEntry package.json
+443 silly gunzTarPerm extractEntry package.json
+444 silly gunzTarPerm extractEntry .npmignore
+445 silly gunzTarPerm extractEntry README.md
+446 silly gunzTarPerm extractEntry index.js
+447 silly gunzTarPerm extractEntry license
+448 silly gunzTarPerm extractEntry .npmignore
+449 silly gunzTarPerm extractEntry README.md
+450 silly gunzTarPerm extractEntry README.md
+451 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+452 silly gunzTarPerm extractEntry LICENSE
+453 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+454 silly gunzTarPerm extractEntry README.md
+455 silly gunzTarPerm extractEntry LICENSE
+456 silly gunzTarPerm extractEntry README.md
+457 silly gunzTarPerm extractEntry LICENSE
+458 silly gunzTarPerm extractEntry LICENSE
+459 silly gunzTarPerm extractEntry data.json
+460 silly gunzTarPerm extractEntry readme.md
+461 silly gunzTarPerm extractEntry LICENSE
+462 silly gunzTarPerm extractEntry index.js
+463 silly gunzTarPerm extractEntry lib/index.js
+464 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+465 silly gunzTarPerm extractEntry lib/parse.js
+466 silly gunzTarPerm modified mode [ 'lib/parse.js', 438, 420 ]
+467 silly gunzTarPerm extractEntry AUTHORS
+468 silly gunzTarPerm extractEntry CHANGELOG.md
+469 silly gunzTarPerm extractEntry cli.js
+470 silly gunzTarPerm extractEntry index.js
+471 silly gunzTarPerm extractEntry .editorconfig
+472 silly gunzTarPerm extractEntry lib/stringify.js
+473 silly gunzTarPerm modified mode [ 'lib/stringify.js', 438, 420 ]
+474 silly gunzTarPerm extractEntry CHANGELOG.md
+475 silly gunzTarPerm extractEntry data/prefixes.js
+476 silly gunzTarPerm extractEntry lib/at-rule.js
+477 silly gunzTarPerm extractEntry lib/unit.js
+478 silly gunzTarPerm modified mode [ 'lib/unit.js', 438, 420 ]
+479 silly gunzTarPerm extractEntry lib/walk.js
+480 silly gunzTarPerm modified mode [ 'lib/walk.js', 438, 420 ]
+481 silly gunzTarPerm extractEntry lib/utils.js
+482 silly gunzTarPerm extractEntry lib/info.js
+483 silly gunzTarPerm extractEntry lib/old-selector.js
+484 silly gunzTarPerm extractEntry lib/declaration.js
+485 silly gunzTarPerm extractEntry lib/autoprefixer.js
+486 silly gunzTarPerm extractEntry lib/prefixes.js
+487 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/normalize-range-9fe403e6/node_modules is being purged
+488 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/normalize-range-9fe403e6/node_modules
+489 silly gunzTarPerm extractEntry lib/processor.js
+490 silly gunzTarPerm extractEntry lib/resolution.js
+491 silly gunzTarPerm extractEntry lib/selector.js
+492 silly gunzTarPerm extractEntry lib/browsers.js
+493 silly gunzTarPerm extractEntry .editorconfig
+494 silly gunzTarPerm extractEntry features-json/history.json
+495 silly gunzTarPerm extractEntry lib/supports.js
+496 silly gunzTarPerm extractEntry lib/brackets.js
+497 silly gunzTarPerm extractEntry features-json/aac.json
+498 silly gunzTarPerm extractEntry features-json/addeventlistener.json
+499 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/num2fraction-eaa4d5af/node_modules is being purged
+500 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/num2fraction-eaa4d5af/node_modules
+501 silly gunzTarPerm extractEntry features-json/alternate-stylesheet.json
+502 silly gunzTarPerm extractEntry features-json/ambient-light.json
+503 silly gunzTarPerm extractEntry features-json/apng.json
+504 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/browserslist-72eb2973/node_modules is being purged
+505 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/browserslist-72eb2973/node_modules
+506 silly gunzTarPerm extractEntry features-json/arrow-functions.json
+507 silly gunzTarPerm extractEntry features-json/asmjs.json
+508 silly gunzTarPerm extractEntry features-json/async-functions.json
+509 silly gunzTarPerm extractEntry features-json/atob-btoa.json
+510 silly gunzTarPerm extractEntry lib/transition.js
+511 silly gunzTarPerm extractEntry lib/old-value.js
+512 silly gunzTarPerm extractEntry features-json/audio-api.json
+513 silly gunzTarPerm extractEntry features-json/audio.json
+514 silly gunzTarPerm extractEntry features-json/audiotracks.json
+515 silly gunzTarPerm extractEntry features-json/autofocus.json
+516 silly gunzTarPerm extractEntry features-json/background-attachment.json
+517 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/postcss-value-parser-894f0b44/node_modules is being purged
+518 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/postcss-value-parser-894f0b44/node_modules
+519 silly gunzTarPerm extractEntry features-json/background-img-opts.json
+520 silly gunzTarPerm extractEntry lib/value.js
+521 silly gunzTarPerm extractEntry lib/prefixer.js
+522 silly gunzTarPerm extractEntry features-json/background-position-x-y.json
+523 silly gunzTarPerm extractEntry features-json/battery-status.json
+524 silly gunzTarPerm extractEntry features-json/beacon.json
+525 silly gunzTarPerm extractEntry features-json/blobbuilder.json
+526 silly gunzTarPerm extractEntry features-json/bloburls.json
+527 silly gunzTarPerm extractEntry features-json/border-image.json
+528 silly gunzTarPerm extractEntry features-json/border-radius.json
+529 silly gunzTarPerm extractEntry features-json/broadcastchannel.json
+530 silly gunzTarPerm extractEntry lib/hacks/align-content.js
+531 silly gunzTarPerm extractEntry lib/hacks/flex-grow.js
+532 silly gunzTarPerm extractEntry features-json/brotli.json
+533 silly gunzTarPerm extractEntry features-json/calc.json
+534 silly gunzTarPerm extractEntry features-json/canvas-blending.json
+535 silly gunzTarPerm extractEntry features-json/canvas-text.json
+536 silly gunzTarPerm extractEntry features-json/canvas.json
+537 silly gunzTarPerm extractEntry features-json/ch-unit.json
+538 silly gunzTarPerm extractEntry features-json/chacha20-poly1305.json
+539 silly gunzTarPerm extractEntry lib/hacks/flex-shrink.js
+540 silly gunzTarPerm extractEntry lib/hacks/flex-spec.js
+541 silly gunzTarPerm extractEntry features-json/channel-messaging.json
+542 silly gunzTarPerm extractEntry features-json/childnode-remove.json
+543 silly gunzTarPerm extractEntry features-json/classlist.json
+544 silly gunzTarPerm extractEntry features-json/client-hints-dpr-width-viewport.json
+545 silly gunzTarPerm extractEntry features-json/clipboard.json
+546 silly gunzTarPerm extractEntry features-json/comparedocumentposition.json
+547 silly gunzTarPerm extractEntry features-json/console-basic.json
+548 silly gunzTarPerm extractEntry features-json/const.json
+549 silly gunzTarPerm extractEntry lib/hacks/flex-flow.js
+550 silly gunzTarPerm extractEntry lib/hacks/flex-wrap.js
+551 silly gunzTarPerm extractEntry features-json/contenteditable.json
+552 silly gunzTarPerm extractEntry features-json/contentsecuritypolicy.json
+553 silly gunzTarPerm extractEntry features-json/contentsecuritypolicy2.json
+554 silly gunzTarPerm extractEntry features-json/cors.json
+555 silly gunzTarPerm extractEntry features-json/credential-management.json
+556 silly gunzTarPerm extractEntry features-json/cryptography.json
+557 silly gunzTarPerm extractEntry features-json/css-all.json
+558 silly gunzTarPerm extractEntry features-json/css-animation.json
+559 silly gunzTarPerm extractEntry features-json/css-any-link.json
+560 silly gunzTarPerm extractEntry lib/hacks/flex.js
+561 silly gunzTarPerm extractEntry lib/hacks/fullscreen.js
+562 silly gunzTarPerm extractEntry features-json/css-appearance.json
+563 silly gunzTarPerm extractEntry features-json/css-at-counter-style.json
+564 silly gunzTarPerm extractEntry features-json/css-backdrop-filter.json
+565 silly gunzTarPerm extractEntry features-json/css-background-offsets.json
+566 silly gunzTarPerm extractEntry features-json/css-backgroundblendmode.json
+567 silly gunzTarPerm extractEntry features-json/css-boxdecorationbreak.json
+568 silly gunzTarPerm extractEntry features-json/css-boxshadow.json
+569 silly gunzTarPerm extractEntry features-json/css-canvas.json
+570 silly gunzTarPerm extractEntry features-json/css-case-insensitive.json
+571 silly gunzTarPerm extractEntry lib/hacks/gradient.js
+572 silly gunzTarPerm extractEntry lib/hacks/grid-end.js
+573 silly gunzTarPerm extractEntry features-json/css-clip-path.json
+574 silly gunzTarPerm extractEntry features-json/css-containment.json
+575 silly gunzTarPerm extractEntry features-json/css-counters.json
+576 silly gunzTarPerm extractEntry features-json/css-crisp-edges.json
+577 silly gunzTarPerm extractEntry features-json/css-cross-fade.json
+578 silly gunzTarPerm extractEntry features-json/css-default-pseudo.json
+579 silly gunzTarPerm extractEntry features-json/css-descendant-gtgt.json
+580 silly gunzTarPerm extractEntry features-json/css-deviceadaptation.json
+581 silly gunzTarPerm extractEntry lib/hacks/flex-direction.js
+582 silly gunzTarPerm extractEntry lib/hacks/grid-row-align.js
+583 silly gunzTarPerm extractEntry features-json/css-dir-pseudo.json
+584 silly gunzTarPerm extractEntry features-json/css-element-function.json
+585 silly gunzTarPerm extractEntry lib/hacks/flex-basis.js
+586 silly gunzTarPerm extractEntry lib/hacks/grid-start.js
+587 silly gunzTarPerm extractEntry features-json/css-exclusions.json
+588 silly gunzTarPerm extractEntry features-json/css-featurequeries.json
+589 silly gunzTarPerm extractEntry lib/hacks/filter.js
+590 silly gunzTarPerm extractEntry lib/hacks/grid-template.js
+591 silly gunzTarPerm extractEntry features-json/css-filter-function.json
+592 silly gunzTarPerm extractEntry features-json/css-filters.json
+593 silly gunzTarPerm extractEntry lib/hacks/filter-value.js
+594 silly gunzTarPerm extractEntry lib/hacks/image-rendering.js
+595 silly gunzTarPerm extractEntry lib/hacks/fill.js
+596 silly gunzTarPerm extractEntry lib/hacks/image-set.js
+597 silly gunzTarPerm extractEntry lib/hacks/display-grid.js
+598 silly gunzTarPerm extractEntry lib/hacks/inline-logical.js
+599 silly gunzTarPerm extractEntry lib/hacks/display-flex.js
+600 silly gunzTarPerm extractEntry lib/hacks/justify-content.js
+601 silly gunzTarPerm extractEntry lib/hacks/cross-fade.js
+602 silly gunzTarPerm extractEntry lib/hacks/justify-items.js
+603 silly gunzTarPerm extractEntry lib/hacks/break-props.js
+604 silly gunzTarPerm extractEntry lib/hacks/mask-border.js
+605 silly gunzTarPerm extractEntry lib/hacks/border-radius.js
+606 silly gunzTarPerm extractEntry lib/hacks/order.js
+607 silly gunzTarPerm extractEntry lib/hacks/border-image.js
+608 silly gunzTarPerm extractEntry lib/hacks/pixelated.js
+609 silly gunzTarPerm extractEntry lib/hacks/block-logical.js
+610 silly gunzTarPerm extractEntry lib/hacks/placeholder.js
+611 silly gunzTarPerm extractEntry lib/hacks/background-size.js
+612 silly gunzTarPerm extractEntry lib/hacks/text-emphasis-position.js
+613 silly gunzTarPerm extractEntry lib/hacks/align-self.js
+614 silly gunzTarPerm extractEntry lib/hacks/transform-decl.js
+615 silly gunzTarPerm extractEntry lib/hacks/align-items.js
+616 silly gunzTarPerm extractEntry lib/hacks/writing-mode.js
+617 silly gunzTarPerm extractEntry lib/hacks/flex-values.js
+618 silly gunzTarPerm extractEntry features-json/css-first-letter.json
+619 silly gunzTarPerm extractEntry features-json/css-first-line.json
+620 silly gunzTarPerm extractEntry features-json/css-fixed.json
+621 silly gunzTarPerm extractEntry features-json/css-focus-within.json
+622 silly gunzTarPerm extractEntry features-json/css-font-rendering-controls.json
+623 silly gunzTarPerm extractEntry features-json/css-font-stretch.json
+624 silly gunzTarPerm extractEntry features-json/css-gencontent.json
+625 silly gunzTarPerm extractEntry features-json/css-gradients.json
+626 silly gunzTarPerm extractEntry features-json/css-grid.json
+627 silly gunzTarPerm extractEntry features-json/css-has.json
+628 silly gunzTarPerm extractEntry features-json/css-hyphens.json
+629 silly gunzTarPerm extractEntry features-json/css-image-orientation.json
+630 silly gunzTarPerm extractEntry features-json/css-image-set.json
+631 silly gunzTarPerm extractEntry features-json/css-in-out-of-range.json
+632 silly gunzTarPerm extractEntry features-json/css-indeterminate-pseudo.json
+633 silly gunzTarPerm extractEntry features-json/css-initial-letter.json
+634 silly gunzTarPerm extractEntry features-json/css-initial-value.json
+635 silly gunzTarPerm extractEntry features-json/css-letter-spacing.json
+636 silly gunzTarPerm extractEntry features-json/css-line-clamp.json
+637 silly gunzTarPerm extractEntry features-json/css-logical-props.json
+638 silly gunzTarPerm extractEntry features-json/css-marker-pseudo.json
+639 silly gunzTarPerm extractEntry features-json/css-masks.json
+640 silly gunzTarPerm extractEntry features-json/css-matches-pseudo.json
+641 silly gunzTarPerm extractEntry features-json/css-media-interaction.json
+642 silly gunzTarPerm extractEntry features-json/css-media-resolution.json
+643 silly gunzTarPerm extractEntry features-json/css-media-scripting.json
+644 silly gunzTarPerm extractEntry features-json/css-mediaqueries.json
+645 silly gunzTarPerm extractEntry features-json/css-mixblendmode.json
+646 silly gunzTarPerm extractEntry features-json/css-motion-paths.json
+647 silly gunzTarPerm extractEntry features-json/css-not-sel-list.json
+648 silly gunzTarPerm extractEntry features-json/css-nth-child-of.json
+649 silly gunzTarPerm extractEntry features-json/css-opacity.json
+650 silly gunzTarPerm extractEntry features-json/css-optional-pseudo.json
+651 silly gunzTarPerm extractEntry features-json/css-page-break.json
+652 silly gunzTarPerm extractEntry features-json/css-paged-media.json
+653 silly gunzTarPerm extractEntry features-json/css-placeholder-shown.json
+654 silly gunzTarPerm extractEntry features-json/css-placeholder.json
+655 silly gunzTarPerm extractEntry features-json/css-read-only-write.json
+656 silly gunzTarPerm extractEntry features-json/css-reflections.json
+657 silly gunzTarPerm extractEntry features-json/css-regions.json
+658 silly gunzTarPerm extractEntry features-json/css-repeating-gradients.json
+659 silly gunzTarPerm extractEntry features-json/css-resize.json
+660 silly gunzTarPerm extractEntry features-json/css-revert-value.json
+661 silly gunzTarPerm extractEntry features-json/css-scroll-behavior.json
+662 silly gunzTarPerm extractEntry features-json/css-scrollbar.json
+663 silly gunzTarPerm extractEntry features-json/css-sel2.json
+664 silly gunzTarPerm extractEntry features-json/css-sel3.json
+665 silly gunzTarPerm extractEntry features-json/css-selection.json
+666 silly gunzTarPerm extractEntry features-json/css-shapes.json
+667 silly gunzTarPerm extractEntry features-json/css-snappoints.json
+668 silly gunzTarPerm extractEntry features-json/css-sticky.json
+669 silly gunzTarPerm extractEntry features-json/css-supports-api.json
+670 silly gunzTarPerm extractEntry features-json/css-table.json
+671 silly gunzTarPerm extractEntry features-json/css-text-align-last.json
+672 silly gunzTarPerm extractEntry features-json/css-text-indent.json
+673 silly gunzTarPerm extractEntry features-json/css-text-justify.json
+674 silly gunzTarPerm extractEntry features-json/css-text-spacing.json
+675 silly gunzTarPerm extractEntry features-json/css-textshadow.json
+676 silly gunzTarPerm extractEntry features-json/css-touch-action.json
+677 silly gunzTarPerm extractEntry features-json/css-transitions.json
+678 silly gunzTarPerm extractEntry features-json/css-unset-value.json
+679 silly gunzTarPerm extractEntry features-json/css-variables.json
+680 silly gunzTarPerm extractEntry features-json/css-widows-orphans.json
+681 silly gunzTarPerm extractEntry features-json/css-writing-mode.json
+682 silly gunzTarPerm extractEntry features-json/css-zoom.json
+683 silly gunzTarPerm extractEntry features-json/css3-attr.json
+684 silly gunzTarPerm extractEntry features-json/css3-boxsizing.json
+685 silly gunzTarPerm extractEntry features-json/css3-colors.json
+686 silly gunzTarPerm extractEntry features-json/css3-cursors-grab.json
+687 silly gunzTarPerm extractEntry features-json/css3-cursors-newer.json
+688 silly gunzTarPerm extractEntry features-json/css3-cursors.json
+689 silly gunzTarPerm extractEntry features-json/css3-tabsize.json
+690 silly gunzTarPerm extractEntry features-json/currentcolor.json
+691 silly gunzTarPerm extractEntry features-json/custom-elements.json
+692 silly gunzTarPerm extractEntry features-json/custom-elementsv1.json
+693 silly gunzTarPerm extractEntry features-json/customevent.json
+694 silly gunzTarPerm extractEntry features-json/datalist.json
+695 silly gunzTarPerm extractEntry features-json/dataset.json
+696 silly gunzTarPerm extractEntry features-json/datauri.json
+697 silly gunzTarPerm extractEntry features-json/details.json
+698 silly gunzTarPerm extractEntry features-json/deviceorientation.json
+699 silly gunzTarPerm extractEntry features-json/devicepixelratio.json
+700 silly gunzTarPerm extractEntry features-json/dialog.json
+701 silly gunzTarPerm extractEntry features-json/dispatchevent.json
+702 silly gunzTarPerm extractEntry features-json/document-currentscript.json
+703 silly gunzTarPerm extractEntry features-json/document-execcommand.json
+704 silly gunzTarPerm extractEntry features-json/documenthead.json
+705 silly gunzTarPerm extractEntry features-json/dom-manip-convenience.json
+706 silly gunzTarPerm extractEntry features-json/dom-range.json
+707 silly gunzTarPerm extractEntry features-json/domcontentloaded.json
+708 silly gunzTarPerm extractEntry features-json/domfocusin-domfocusout-events.json
+709 silly gunzTarPerm extractEntry features-json/dommatrix.json
+710 silly gunzTarPerm extractEntry features-json/download.json
+711 silly gunzTarPerm extractEntry features-json/dragndrop.json
+712 silly gunzTarPerm extractEntry features-json/element-closest.json
+713 silly gunzTarPerm extractEntry features-json/element-from-point.json
+714 silly gunzTarPerm extractEntry features-json/eot.json
+715 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/autoprefixer-2d620b90/node_modules is being purged
+716 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/autoprefixer-2d620b90/node_modules
+717 silly gunzTarPerm extractEntry features-json/es5.json
+718 silly gunzTarPerm extractEntry features-json/es6-class.json
+719 silly gunzTarPerm extractEntry features-json/es6-module.json
+720 silly gunzTarPerm extractEntry features-json/es6-number.json
+721 silly gunzTarPerm extractEntry features-json/eventsource.json
+722 silly gunzTarPerm extractEntry features-json/fetch.json
+723 silly gunzTarPerm extractEntry features-json/fieldset-disabled.json
+724 silly gunzTarPerm extractEntry features-json/fileapi.json
+725 silly gunzTarPerm extractEntry features-json/filereader.json
+726 silly gunzTarPerm extractEntry features-json/filereadersync.json
+727 silly gunzTarPerm extractEntry features-json/filesystem.json
+728 silly gunzTarPerm extractEntry features-json/flac.json
+729 silly gunzTarPerm extractEntry features-json/flexbox.json
+730 silly gunzTarPerm extractEntry features-json/focusin-focusout-events.json
+731 silly gunzTarPerm extractEntry features-json/font-feature.json
+732 silly gunzTarPerm extractEntry features-json/font-kerning.json
+733 silly gunzTarPerm extractEntry features-json/font-loading.json
+734 silly gunzTarPerm extractEntry features-json/font-size-adjust.json
+735 silly gunzTarPerm extractEntry features-json/font-smooth.json
+736 silly gunzTarPerm extractEntry features-json/font-unicode-range.json
+737 silly gunzTarPerm extractEntry features-json/font-variant-alternates.json
+738 silly gunzTarPerm extractEntry features-json/fontface.json
+739 silly gunzTarPerm extractEntry features-json/form-attribute.json
+740 silly gunzTarPerm extractEntry features-json/form-submit-attributes.json
+741 silly gunzTarPerm extractEntry features-json/form-validation.json
+742 silly gunzTarPerm extractEntry features-json/forms.json
+743 silly gunzTarPerm extractEntry features-json/fullscreen.json
+744 silly gunzTarPerm extractEntry features-json/gamepad.json
+745 silly gunzTarPerm extractEntry features-json/geolocation.json
+746 silly gunzTarPerm extractEntry features-json/getboundingclientrect.json
+747 silly gunzTarPerm extractEntry features-json/getcomputedstyle.json
+748 silly gunzTarPerm extractEntry features-json/getelementsbyclassname.json
+749 silly gunzTarPerm extractEntry features-json/getrandomvalues.json
+750 silly gunzTarPerm extractEntry features-json/hashchange.json
+751 silly gunzTarPerm extractEntry features-json/hidden.json
+752 silly gunzTarPerm extractEntry features-json/high-resolution-time.json
+753 silly gunzTarPerm extractEntry features-json/ac3-ec3.json
+754 silly gunzTarPerm extractEntry features-json/html-media-capture.json
+755 silly gunzTarPerm extractEntry features-json/html5semantic.json
+756 silly gunzTarPerm extractEntry features-json/http-live-streaming.json
+757 silly gunzTarPerm extractEntry features-json/http2.json
+758 silly gunzTarPerm extractEntry features-json/iframe-sandbox.json
+759 silly gunzTarPerm extractEntry features-json/iframe-seamless.json
+760 silly gunzTarPerm extractEntry features-json/iframe-srcdoc.json
+761 silly gunzTarPerm extractEntry features-json/imagecapture.json
+762 silly gunzTarPerm extractEntry features-json/ime.json
+763 silly gunzTarPerm extractEntry features-json/img-naturalwidth-naturalheight.json
+764 silly gunzTarPerm extractEntry features-json/imports.json
+765 silly gunzTarPerm extractEntry features-json/indeterminate-checkbox.json
+766 silly gunzTarPerm extractEntry features-json/indexeddb.json
+767 silly gunzTarPerm extractEntry features-json/inline-block.json
+768 silly gunzTarPerm extractEntry features-json/innertext.json
+769 silly gunzTarPerm extractEntry features-json/input-autocomplete-onoff.json
+770 silly gunzTarPerm extractEntry features-json/input-color.json
+771 silly gunzTarPerm extractEntry features-json/input-datetime.json
+772 silly gunzTarPerm extractEntry features-json/input-email-tel-url.json
+773 silly gunzTarPerm extractEntry features-json/input-event.json
+774 silly gunzTarPerm extractEntry features-json/input-file-accept.json
+775 silly gunzTarPerm extractEntry features-json/input-file-multiple.json
+776 silly gunzTarPerm extractEntry features-json/input-inputmode.json
+777 silly gunzTarPerm extractEntry features-json/input-minlength.json
+778 silly gunzTarPerm extractEntry features-json/input-number.json
+779 silly gunzTarPerm extractEntry features-json/input-pattern.json
+780 silly gunzTarPerm extractEntry features-json/input-placeholder.json
+781 silly gunzTarPerm extractEntry features-json/input-range.json
+782 silly gunzTarPerm extractEntry features-json/input-search.json
+783 silly gunzTarPerm extractEntry features-json/insert-adjacent.json
+784 silly gunzTarPerm extractEntry features-json/insertadjacenthtml.json
+785 silly gunzTarPerm extractEntry features-json/internationalization.json
+786 silly gunzTarPerm extractEntry features-json/intersectionobserver.json
+787 silly gunzTarPerm extractEntry features-json/intrinsic-width.json
+788 silly gunzTarPerm extractEntry features-json/jpeg2000.json
+789 silly gunzTarPerm extractEntry features-json/jpegxr.json
+790 silly gunzTarPerm extractEntry features-json/json.json
+791 silly gunzTarPerm extractEntry features-json/kerning-pairs-ligatures.json
+792 silly gunzTarPerm extractEntry features-json/keyboardevent-charcode.json
+793 silly gunzTarPerm extractEntry features-json/keyboardevent-code.json
+794 silly gunzTarPerm extractEntry features-json/keyboardevent-getmodifierstate.json
+795 silly gunzTarPerm extractEntry features-json/keyboardevent-key.json
+796 silly gunzTarPerm extractEntry features-json/keyboardevent-location.json
+797 silly gunzTarPerm extractEntry features-json/keyboardevent-which.json
+798 silly gunzTarPerm extractEntry features-json/lazyload.json
+799 silly gunzTarPerm extractEntry features-json/let.json
+800 silly gunzTarPerm extractEntry features-json/link-icon-png.json
+801 silly gunzTarPerm extractEntry features-json/link-icon-svg.json
+802 silly gunzTarPerm extractEntry features-json/link-rel-dns-prefetch.json
+803 silly gunzTarPerm extractEntry features-json/link-rel-preconnect.json
+804 silly gunzTarPerm extractEntry features-json/link-rel-prefetch.json
+805 silly gunzTarPerm extractEntry features-json/link-rel-preload.json
+806 silly gunzTarPerm extractEntry features-json/link-rel-prerender.json
+807 silly gunzTarPerm extractEntry features-json/matchesselector.json
+808 silly gunzTarPerm extractEntry features-json/matchmedia.json
+809 silly gunzTarPerm extractEntry features-json/mathml.json
+810 silly gunzTarPerm extractEntry features-json/maxlength.json
+811 silly gunzTarPerm extractEntry features-json/media-attribute.json
+812 silly gunzTarPerm extractEntry features-json/mediarecorder.json
+813 silly gunzTarPerm extractEntry features-json/mediasource.json
+814 silly gunzTarPerm extractEntry features-json/menu.json
+815 silly gunzTarPerm extractEntry features-json/meter.json
+816 silly gunzTarPerm extractEntry features-json/midi.json
+817 silly gunzTarPerm extractEntry features-json/minmaxwh.json
+818 silly gunzTarPerm extractEntry features-json/mp3.json
+819 silly gunzTarPerm extractEntry features-json/mpeg4.json
+820 silly gunzTarPerm extractEntry features-json/multibackgrounds.json
+821 silly gunzTarPerm extractEntry features-json/multicolumn.json
+822 silly gunzTarPerm extractEntry features-json/mutation-events.json
+823 silly gunzTarPerm extractEntry features-json/mutationobserver.json
+824 silly gunzTarPerm extractEntry features-json/namevalue-storage.json
+825 silly gunzTarPerm extractEntry features-json/nav-timing.json
+826 silly gunzTarPerm extractEntry features-json/netinfo.json
+827 silly gunzTarPerm extractEntry features-json/node-contains.json
+828 silly gunzTarPerm extractEntry features-json/node-parentelement.json
+829 silly gunzTarPerm extractEntry features-json/notifications.json
+830 silly gunzTarPerm extractEntry features-json/object-fit.json
+831 silly gunzTarPerm extractEntry features-json/object-observe.json
+832 silly gunzTarPerm extractEntry features-json/objectrtc.json
+833 silly gunzTarPerm extractEntry features-json/offline-apps.json
+834 silly gunzTarPerm extractEntry features-json/ogg-vorbis.json
+835 silly gunzTarPerm extractEntry features-json/ogv.json
+836 silly gunzTarPerm extractEntry features-json/ol-reversed.json
+837 silly gunzTarPerm extractEntry features-json/once-event-listener.json
+838 silly gunzTarPerm extractEntry features-json/online-status.json
+839 silly gunzTarPerm extractEntry features-json/opus.json
+840 silly gunzTarPerm extractEntry features-json/outline.json
+841 silly gunzTarPerm extractEntry features-json/page-transition-events.json
+842 silly gunzTarPerm extractEntry features-json/pagevisibility.json
+843 silly gunzTarPerm extractEntry features-json/passive-event-listener.json
+844 silly gunzTarPerm extractEntry features-json/payment-request.json
+845 silly gunzTarPerm extractEntry features-json/permissions-api.json
+846 silly gunzTarPerm extractEntry features-json/picture.json
+847 silly gunzTarPerm extractEntry features-json/ping.json
+848 silly gunzTarPerm extractEntry features-json/png-alpha.json
+849 silly gunzTarPerm extractEntry features-json/pointer-events.json
+850 silly gunzTarPerm extractEntry features-json/pointer.json
+851 silly gunzTarPerm extractEntry features-json/pointerlock.json
+852 silly gunzTarPerm extractEntry features-json/progress.json
+853 silly gunzTarPerm extractEntry features-json/promises.json
+854 silly gunzTarPerm extractEntry features-json/proximity.json
+855 silly gunzTarPerm extractEntry features-json/proxy.json
+856 silly gunzTarPerm extractEntry features-json/publickeypinning.json
+857 silly gunzTarPerm extractEntry features-json/push-api.json
+858 silly gunzTarPerm extractEntry features-json/queryselector.json
+859 silly gunzTarPerm extractEntry features-json/readonly-attr.json
+860 silly gunzTarPerm extractEntry features-json/referrer-policy.json
+861 silly gunzTarPerm extractEntry features-json/registerprotocolhandler.json
+862 silly gunzTarPerm extractEntry features-json/rel-noopener.json
+863 silly gunzTarPerm extractEntry features-json/rellist.json
+864 silly gunzTarPerm extractEntry features-json/rem.json
+865 silly gunzTarPerm extractEntry features-json/requestanimationframe.json
+866 silly gunzTarPerm extractEntry features-json/requestidlecallback.json
+867 silly gunzTarPerm extractEntry features-json/resource-timing.json
+868 silly gunzTarPerm extractEntry features-json/rest-parameters.json
+869 silly gunzTarPerm extractEntry features-json/rtcpeerconnection.json
+870 silly gunzTarPerm extractEntry features-json/ruby.json
+871 silly gunzTarPerm extractEntry features-json/same-site-cookie-attribute.json
+872 silly gunzTarPerm extractEntry features-json/screen-orientation.json
+873 silly gunzTarPerm extractEntry features-json/script-async.json
+874 silly gunzTarPerm extractEntry features-json/script-defer.json
+875 silly gunzTarPerm extractEntry features-json/scrollintoview.json
+876 silly gunzTarPerm extractEntry features-json/scrollintoviewifneeded.json
+877 silly gunzTarPerm extractEntry features-json/sdch.json
+878 silly gunzTarPerm extractEntry features-json/selection-api.json
+879 silly gunzTarPerm extractEntry features-json/serviceworkers.json
+880 silly gunzTarPerm extractEntry features-json/setimmediate.json
+881 silly gunzTarPerm extractEntry features-json/shadowdom.json
+882 silly gunzTarPerm extractEntry features-json/shadowdomv1.json
+883 silly gunzTarPerm extractEntry features-json/sharedworkers.json
+884 silly gunzTarPerm extractEntry features-json/sni.json
+885 silly gunzTarPerm extractEntry features-json/spdy.json
+886 silly gunzTarPerm extractEntry features-json/speech-recognition.json
+887 silly gunzTarPerm extractEntry features-json/speech-synthesis.json
+888 silly gunzTarPerm extractEntry features-json/spellcheck-attribute.json
+889 silly gunzTarPerm extractEntry features-json/sql-storage.json
+890 silly gunzTarPerm extractEntry features-json/srcset.json
+891 silly gunzTarPerm extractEntry features-json/stopimmediatepropagation.json
+892 silly gunzTarPerm extractEntry features-json/stream.json
+893 silly gunzTarPerm extractEntry features-json/stricttransportsecurity.json
+894 silly gunzTarPerm extractEntry features-json/style-scoped.json
+895 silly gunzTarPerm extractEntry features-json/subresource-integrity.json
+896 silly gunzTarPerm extractEntry features-json/svg-css.json
+897 silly gunzTarPerm extractEntry features-json/svg-filters.json
+898 silly gunzTarPerm extractEntry features-json/svg-fonts.json
+899 silly gunzTarPerm extractEntry features-json/svg-fragment.json
+900 silly gunzTarPerm extractEntry features-json/svg-html.json
+901 silly gunzTarPerm extractEntry features-json/svg-html5.json
+902 silly gunzTarPerm extractEntry features-json/svg-img.json
+903 silly gunzTarPerm extractEntry features-json/svg-smil.json
+904 silly gunzTarPerm extractEntry features-json/svg.json
+905 silly gunzTarPerm extractEntry features-json/tabindex-attr.json
+906 silly gunzTarPerm extractEntry features-json/template.json
+907 silly gunzTarPerm extractEntry features-json/testfeat.json
+908 silly gunzTarPerm extractEntry features-json/text-decoration.json
+909 silly gunzTarPerm extractEntry features-json/text-emphasis.json
+910 silly gunzTarPerm extractEntry features-json/text-overflow.json
+911 silly gunzTarPerm extractEntry features-json/text-size-adjust.json
+912 silly gunzTarPerm extractEntry features-json/text-stroke.json
+913 silly gunzTarPerm extractEntry features-json/textcontent.json
+914 silly gunzTarPerm extractEntry features-json/textencoder.json
+915 silly gunzTarPerm extractEntry features-json/tls1-1.json
+916 silly gunzTarPerm extractEntry features-json/tls1-2.json
+917 silly gunzTarPerm extractEntry features-json/touch.json
+918 silly gunzTarPerm extractEntry features-json/transforms2d.json
+919 silly gunzTarPerm extractEntry features-json/transforms3d.json
+920 silly gunzTarPerm extractEntry features-json/ttf.json
+921 silly gunzTarPerm extractEntry features-json/typedarrays.json
+922 silly gunzTarPerm extractEntry features-json/u2f.json
+923 silly gunzTarPerm extractEntry features-json/upgradeinsecurerequests.json
+924 silly gunzTarPerm extractEntry features-json/url.json
+925 silly gunzTarPerm extractEntry features-json/urlsearchparams.json
+926 silly gunzTarPerm extractEntry features-json/use-strict.json
+927 silly gunzTarPerm extractEntry features-json/user-select-none.json
+928 silly gunzTarPerm extractEntry features-json/user-timing.json
+929 silly gunzTarPerm extractEntry features-json/vibration.json
+930 silly gunzTarPerm extractEntry features-json/video.json
+931 silly gunzTarPerm extractEntry features-json/videotracks.json
+932 silly gunzTarPerm extractEntry features-json/viewport-units.json
+933 silly gunzTarPerm extractEntry features-json/wai-aria.json
+934 silly gunzTarPerm extractEntry features-json/wasm.json
+935 silly gunzTarPerm extractEntry features-json/wav.json
+936 silly gunzTarPerm extractEntry features-json/wbr-element.json
+937 silly gunzTarPerm extractEntry features-json/web-animation.json
+938 silly gunzTarPerm extractEntry features-json/web-app-manifest.json
+939 silly gunzTarPerm extractEntry features-json/web-bluetooth.json
+940 silly gunzTarPerm extractEntry features-json/webgl.json
+941 silly gunzTarPerm extractEntry features-json/webgl2.json
+942 silly gunzTarPerm extractEntry features-json/webm.json
+943 silly gunzTarPerm extractEntry features-json/webp.json
+944 silly gunzTarPerm extractEntry features-json/websockets.json
+945 silly gunzTarPerm extractEntry features-json/webvtt.json
+946 silly gunzTarPerm extractEntry features-json/webworkers.json
+947 silly gunzTarPerm extractEntry features-json/will-change.json
+948 silly gunzTarPerm extractEntry features-json/woff.json
+949 silly gunzTarPerm extractEntry features-json/woff2.json
+950 silly gunzTarPerm extractEntry features-json/word-break.json
+951 silly gunzTarPerm extractEntry features-json/wordwrap.json
+952 silly gunzTarPerm extractEntry features-json/x-doc-messaging.json
+953 silly gunzTarPerm extractEntry features-json/x-frame-options.json
+954 silly gunzTarPerm extractEntry features-json/xhr2.json
+955 silly gunzTarPerm extractEntry features-json/xhtml.json
+956 silly gunzTarPerm extractEntry features-json/xhtmlsmil.json
+957 silly gunzTarPerm extractEntry features-json/xml-serializer.json
+958 silly gunzTarPerm extractEntry fulldata-json/data-1.0.json
+959 silly gunzTarPerm extractEntry fulldata-json/data-2.0.json
+960 silly gunzTarPerm extractEntry CONTRIBUTING.md
+961 silly gunzTarPerm extractEntry region-usage-json/LR.json
+962 silly gunzTarPerm extractEntry region-usage-json/AD.json
+963 silly gunzTarPerm extractEntry region-usage-json/AF.json
+964 silly gunzTarPerm extractEntry region-usage-json/AG.json
+965 silly gunzTarPerm extractEntry region-usage-json/AI.json
+966 silly gunzTarPerm extractEntry region-usage-json/AL.json
+967 silly gunzTarPerm extractEntry region-usage-json/AM.json
+968 silly gunzTarPerm extractEntry region-usage-json/AN.json
+969 silly gunzTarPerm extractEntry region-usage-json/AO.json
+970 silly gunzTarPerm extractEntry region-usage-json/AR.json
+971 silly gunzTarPerm extractEntry region-usage-json/AS.json
+972 silly gunzTarPerm extractEntry region-usage-json/AT.json
+973 silly gunzTarPerm extractEntry region-usage-json/AU.json
+974 silly gunzTarPerm extractEntry region-usage-json/AW.json
+975 silly gunzTarPerm extractEntry region-usage-json/AX.json
+976 silly gunzTarPerm extractEntry region-usage-json/AZ.json
+977 silly gunzTarPerm extractEntry region-usage-json/BA.json
+978 silly gunzTarPerm extractEntry region-usage-json/BB.json
+979 silly gunzTarPerm extractEntry region-usage-json/BD.json
+980 silly gunzTarPerm extractEntry region-usage-json/BE.json
+981 silly gunzTarPerm extractEntry region-usage-json/BF.json
+982 silly gunzTarPerm extractEntry region-usage-json/BG.json
+983 silly gunzTarPerm extractEntry region-usage-json/BH.json
+984 silly gunzTarPerm extractEntry region-usage-json/BI.json
+985 silly gunzTarPerm extractEntry region-usage-json/BJ.json
+986 silly gunzTarPerm extractEntry region-usage-json/BM.json
+987 silly gunzTarPerm extractEntry region-usage-json/BN.json
+988 silly gunzTarPerm extractEntry region-usage-json/BO.json
+989 silly gunzTarPerm extractEntry region-usage-json/BR.json
+990 silly gunzTarPerm extractEntry region-usage-json/BS.json
+991 silly gunzTarPerm extractEntry region-usage-json/BT.json
+992 silly gunzTarPerm extractEntry region-usage-json/BW.json
+993 silly gunzTarPerm extractEntry region-usage-json/BY.json
+994 silly gunzTarPerm extractEntry region-usage-json/BZ.json
+995 silly gunzTarPerm extractEntry region-usage-json/CA.json
+996 silly gunzTarPerm extractEntry region-usage-json/CD.json
+997 silly gunzTarPerm extractEntry region-usage-json/CF.json
+998 silly gunzTarPerm extractEntry region-usage-json/CG.json
+999 silly gunzTarPerm extractEntry region-usage-json/CH.json
+1000 silly gunzTarPerm extractEntry region-usage-json/CI.json
+1001 silly gunzTarPerm extractEntry region-usage-json/CK.json
+1002 silly gunzTarPerm extractEntry region-usage-json/CL.json
+1003 silly gunzTarPerm extractEntry region-usage-json/CM.json
+1004 silly gunzTarPerm extractEntry region-usage-json/CN.json
+1005 silly gunzTarPerm extractEntry region-usage-json/CO.json
+1006 silly gunzTarPerm extractEntry region-usage-json/CR.json
+1007 silly gunzTarPerm extractEntry region-usage-json/CU.json
+1008 silly gunzTarPerm extractEntry region-usage-json/CV.json
+1009 silly gunzTarPerm extractEntry region-usage-json/CX.json
+1010 silly gunzTarPerm extractEntry region-usage-json/CY.json
+1011 silly gunzTarPerm extractEntry region-usage-json/CZ.json
+1012 silly gunzTarPerm extractEntry region-usage-json/DE.json
+1013 silly gunzTarPerm extractEntry region-usage-json/DJ.json
+1014 silly gunzTarPerm extractEntry region-usage-json/DK.json
+1015 silly gunzTarPerm extractEntry region-usage-json/DM.json
+1016 silly gunzTarPerm extractEntry region-usage-json/DO.json
+1017 silly gunzTarPerm extractEntry region-usage-json/DZ.json
+1018 silly gunzTarPerm extractEntry region-usage-json/EC.json
+1019 silly gunzTarPerm extractEntry region-usage-json/EE.json
+1020 silly gunzTarPerm extractEntry region-usage-json/EG.json
+1021 silly gunzTarPerm extractEntry region-usage-json/ER.json
+1022 silly gunzTarPerm extractEntry region-usage-json/ES.json
+1023 silly gunzTarPerm extractEntry region-usage-json/ET.json
+1024 silly gunzTarPerm extractEntry region-usage-json/FI.json
+1025 silly gunzTarPerm extractEntry region-usage-json/FJ.json
+1026 silly gunzTarPerm extractEntry region-usage-json/FK.json
+1027 silly gunzTarPerm extractEntry region-usage-json/FM.json
+1028 silly gunzTarPerm extractEntry region-usage-json/FO.json
+1029 silly gunzTarPerm extractEntry region-usage-json/FR.json
+1030 silly gunzTarPerm extractEntry region-usage-json/GA.json
+1031 silly gunzTarPerm extractEntry region-usage-json/GB.json
+1032 silly gunzTarPerm extractEntry region-usage-json/GD.json
+1033 silly gunzTarPerm extractEntry region-usage-json/GE.json
+1034 silly gunzTarPerm extractEntry region-usage-json/GF.json
+1035 silly gunzTarPerm extractEntry region-usage-json/GG.json
+1036 silly gunzTarPerm extractEntry region-usage-json/GH.json
+1037 silly gunzTarPerm extractEntry region-usage-json/GI.json
+1038 silly gunzTarPerm extractEntry region-usage-json/GL.json
+1039 silly gunzTarPerm extractEntry region-usage-json/GM.json
+1040 silly gunzTarPerm extractEntry region-usage-json/GN.json
+1041 silly gunzTarPerm extractEntry region-usage-json/GP.json
+1042 silly gunzTarPerm extractEntry region-usage-json/GQ.json
+1043 silly gunzTarPerm extractEntry region-usage-json/GR.json
+1044 silly gunzTarPerm extractEntry region-usage-json/GT.json
+1045 silly gunzTarPerm extractEntry region-usage-json/GU.json
+1046 silly gunzTarPerm extractEntry region-usage-json/GW.json
+1047 silly gunzTarPerm extractEntry region-usage-json/GY.json
+1048 silly gunzTarPerm extractEntry region-usage-json/HK.json
+1049 silly gunzTarPerm extractEntry region-usage-json/HN.json
+1050 silly gunzTarPerm extractEntry region-usage-json/HR.json
+1051 silly gunzTarPerm extractEntry region-usage-json/HT.json
+1052 silly gunzTarPerm extractEntry region-usage-json/HU.json
+1053 silly gunzTarPerm extractEntry region-usage-json/ID.json
+1054 silly gunzTarPerm extractEntry region-usage-json/IE.json
+1055 silly gunzTarPerm extractEntry region-usage-json/IL.json
+1056 silly gunzTarPerm extractEntry region-usage-json/IM.json
+1057 silly gunzTarPerm extractEntry region-usage-json/IN.json
+1058 silly gunzTarPerm extractEntry region-usage-json/IQ.json
+1059 silly gunzTarPerm extractEntry region-usage-json/IR.json
+1060 silly gunzTarPerm extractEntry region-usage-json/IS.json
+1061 silly gunzTarPerm extractEntry region-usage-json/IT.json
+1062 silly gunzTarPerm extractEntry region-usage-json/JE.json
+1063 silly gunzTarPerm extractEntry region-usage-json/JM.json
+1064 silly gunzTarPerm extractEntry region-usage-json/JO.json
+1065 silly gunzTarPerm extractEntry region-usage-json/JP.json
+1066 silly gunzTarPerm extractEntry region-usage-json/KE.json
+1067 silly gunzTarPerm extractEntry region-usage-json/KG.json
+1068 silly gunzTarPerm extractEntry region-usage-json/KH.json
+1069 silly gunzTarPerm extractEntry region-usage-json/KI.json
+1070 silly gunzTarPerm extractEntry region-usage-json/KM.json
+1071 silly gunzTarPerm extractEntry region-usage-json/KN.json
+1072 silly gunzTarPerm extractEntry region-usage-json/KP.json
+1073 silly gunzTarPerm extractEntry region-usage-json/KR.json
+1074 silly gunzTarPerm extractEntry region-usage-json/KW.json
+1075 silly gunzTarPerm extractEntry region-usage-json/KY.json
+1076 silly gunzTarPerm extractEntry region-usage-json/KZ.json
+1077 silly gunzTarPerm extractEntry region-usage-json/LA.json
+1078 silly gunzTarPerm extractEntry region-usage-json/LB.json
+1079 silly gunzTarPerm extractEntry region-usage-json/LC.json
+1080 silly gunzTarPerm extractEntry region-usage-json/LI.json
+1081 silly gunzTarPerm extractEntry region-usage-json/LK.json
+1082 silly gunzTarPerm extractEntry region-usage-json/AE.json
+1083 silly gunzTarPerm extractEntry region-usage-json/LS.json
+1084 silly gunzTarPerm extractEntry region-usage-json/LT.json
+1085 silly gunzTarPerm extractEntry region-usage-json/LU.json
+1086 silly gunzTarPerm extractEntry region-usage-json/LV.json
+1087 silly gunzTarPerm extractEntry region-usage-json/LY.json
+1088 silly gunzTarPerm extractEntry region-usage-json/MA.json
+1089 silly gunzTarPerm extractEntry region-usage-json/MC.json
+1090 silly gunzTarPerm extractEntry region-usage-json/MD.json
+1091 silly gunzTarPerm extractEntry region-usage-json/ME.json
+1092 silly gunzTarPerm extractEntry region-usage-json/MG.json
+1093 silly gunzTarPerm extractEntry region-usage-json/MH.json
+1094 silly gunzTarPerm extractEntry region-usage-json/MK.json
+1095 silly gunzTarPerm extractEntry region-usage-json/ML.json
+1096 silly gunzTarPerm extractEntry region-usage-json/MM.json
+1097 silly gunzTarPerm extractEntry region-usage-json/MN.json
+1098 silly gunzTarPerm extractEntry region-usage-json/MO.json
+1099 silly gunzTarPerm extractEntry region-usage-json/MP.json
+1100 silly gunzTarPerm extractEntry region-usage-json/MQ.json
+1101 silly gunzTarPerm extractEntry region-usage-json/MR.json
+1102 silly gunzTarPerm extractEntry region-usage-json/MS.json
+1103 silly gunzTarPerm extractEntry region-usage-json/MT.json
+1104 silly gunzTarPerm extractEntry region-usage-json/MU.json
+1105 silly gunzTarPerm extractEntry region-usage-json/MV.json
+1106 silly gunzTarPerm extractEntry region-usage-json/MW.json
+1107 silly gunzTarPerm extractEntry region-usage-json/MX.json
+1108 silly gunzTarPerm extractEntry region-usage-json/MY.json
+1109 silly gunzTarPerm extractEntry region-usage-json/MZ.json
+1110 silly gunzTarPerm extractEntry region-usage-json/NA.json
+1111 silly gunzTarPerm extractEntry region-usage-json/NC.json
+1112 silly gunzTarPerm extractEntry region-usage-json/NE.json
+1113 silly gunzTarPerm extractEntry region-usage-json/NF.json
+1114 silly gunzTarPerm extractEntry region-usage-json/NG.json
+1115 silly gunzTarPerm extractEntry region-usage-json/NI.json
+1116 silly gunzTarPerm extractEntry region-usage-json/NL.json
+1117 silly gunzTarPerm extractEntry region-usage-json/NO.json
+1118 silly gunzTarPerm extractEntry region-usage-json/NP.json
+1119 silly gunzTarPerm extractEntry region-usage-json/NR.json
+1120 silly gunzTarPerm extractEntry region-usage-json/NU.json
+1121 silly gunzTarPerm extractEntry region-usage-json/NZ.json
+1122 silly gunzTarPerm extractEntry region-usage-json/OM.json
+1123 silly gunzTarPerm extractEntry region-usage-json/PA.json
+1124 silly gunzTarPerm extractEntry region-usage-json/PE.json
+1125 silly gunzTarPerm extractEntry region-usage-json/PF.json
+1126 silly gunzTarPerm extractEntry region-usage-json/PG.json
+1127 silly gunzTarPerm extractEntry region-usage-json/PH.json
+1128 silly gunzTarPerm extractEntry region-usage-json/PK.json
+1129 silly gunzTarPerm extractEntry region-usage-json/PL.json
+1130 silly gunzTarPerm extractEntry region-usage-json/PM.json
+1131 silly gunzTarPerm extractEntry region-usage-json/PN.json
+1132 silly gunzTarPerm extractEntry region-usage-json/PR.json
+1133 silly gunzTarPerm extractEntry region-usage-json/PS.json
+1134 silly gunzTarPerm extractEntry region-usage-json/PT.json
+1135 silly gunzTarPerm extractEntry region-usage-json/PW.json
+1136 silly gunzTarPerm extractEntry region-usage-json/PY.json
+1137 silly gunzTarPerm extractEntry region-usage-json/QA.json
+1138 silly gunzTarPerm extractEntry region-usage-json/RE.json
+1139 silly gunzTarPerm extractEntry region-usage-json/RO.json
+1140 silly gunzTarPerm extractEntry region-usage-json/RS.json
+1141 silly gunzTarPerm extractEntry region-usage-json/RU.json
+1142 silly gunzTarPerm extractEntry region-usage-json/RW.json
+1143 silly gunzTarPerm extractEntry region-usage-json/SA.json
+1144 silly gunzTarPerm extractEntry region-usage-json/SB.json
+1145 silly gunzTarPerm extractEntry region-usage-json/SC.json
+1146 silly gunzTarPerm extractEntry region-usage-json/SD.json
+1147 silly gunzTarPerm extractEntry region-usage-json/SE.json
+1148 silly gunzTarPerm extractEntry region-usage-json/SG.json
+1149 silly gunzTarPerm extractEntry region-usage-json/SH.json
+1150 silly gunzTarPerm extractEntry region-usage-json/SI.json
+1151 silly gunzTarPerm extractEntry region-usage-json/SK.json
+1152 silly gunzTarPerm extractEntry region-usage-json/SL.json
+1153 silly gunzTarPerm extractEntry region-usage-json/SM.json
+1154 silly gunzTarPerm extractEntry region-usage-json/SN.json
+1155 silly gunzTarPerm extractEntry region-usage-json/SO.json
+1156 silly gunzTarPerm extractEntry region-usage-json/SR.json
+1157 silly gunzTarPerm extractEntry region-usage-json/ST.json
+1158 silly gunzTarPerm extractEntry region-usage-json/SV.json
+1159 silly gunzTarPerm extractEntry region-usage-json/SY.json
+1160 silly gunzTarPerm extractEntry region-usage-json/SZ.json
+1161 silly gunzTarPerm extractEntry region-usage-json/TC.json
+1162 silly gunzTarPerm extractEntry region-usage-json/TD.json
+1163 silly gunzTarPerm extractEntry region-usage-json/TG.json
+1164 silly gunzTarPerm extractEntry region-usage-json/TH.json
+1165 silly gunzTarPerm extractEntry region-usage-json/TJ.json
+1166 silly gunzTarPerm extractEntry region-usage-json/TK.json
+1167 silly gunzTarPerm extractEntry region-usage-json/TL.json
+1168 silly gunzTarPerm extractEntry region-usage-json/TM.json
+1169 silly gunzTarPerm extractEntry region-usage-json/TN.json
+1170 silly gunzTarPerm extractEntry region-usage-json/TO.json
+1171 silly gunzTarPerm extractEntry region-usage-json/TR.json
+1172 silly gunzTarPerm extractEntry region-usage-json/TT.json
+1173 silly gunzTarPerm extractEntry region-usage-json/TV.json
+1174 silly gunzTarPerm extractEntry region-usage-json/TW.json
+1175 silly gunzTarPerm extractEntry region-usage-json/TZ.json
+1176 silly gunzTarPerm extractEntry region-usage-json/UA.json
+1177 silly gunzTarPerm extractEntry region-usage-json/UG.json
+1178 silly gunzTarPerm extractEntry region-usage-json/US.json
+1179 silly gunzTarPerm extractEntry region-usage-json/UY.json
+1180 silly gunzTarPerm extractEntry region-usage-json/UZ.json
+1181 silly gunzTarPerm extractEntry region-usage-json/VA.json
+1182 silly gunzTarPerm extractEntry region-usage-json/VC.json
+1183 silly gunzTarPerm extractEntry region-usage-json/VE.json
+1184 silly gunzTarPerm extractEntry region-usage-json/VG.json
+1185 silly gunzTarPerm extractEntry region-usage-json/VI.json
+1186 silly gunzTarPerm extractEntry region-usage-json/VN.json
+1187 silly gunzTarPerm extractEntry region-usage-json/VU.json
+1188 silly gunzTarPerm extractEntry region-usage-json/WF.json
+1189 silly gunzTarPerm extractEntry region-usage-json/WS.json
+1190 silly gunzTarPerm extractEntry region-usage-json/YE.json
+1191 silly gunzTarPerm extractEntry region-usage-json/YT.json
+1192 silly gunzTarPerm extractEntry region-usage-json/ZA.json
+1193 silly gunzTarPerm extractEntry region-usage-json/ZM.json
+1194 silly gunzTarPerm extractEntry region-usage-json/ZW.json
+1195 silly gunzTarPerm extractEntry region-usage-json/alt-af.json
+1196 silly gunzTarPerm extractEntry region-usage-json/alt-an.json
+1197 silly gunzTarPerm extractEntry region-usage-json/alt-as.json
+1198 silly gunzTarPerm extractEntry region-usage-json/alt-eu.json
+1199 silly gunzTarPerm extractEntry region-usage-json/alt-na.json
+1200 silly gunzTarPerm extractEntry region-usage-json/alt-oc.json
+1201 silly gunzTarPerm extractEntry region-usage-json/alt-sa.json
+1202 silly gunzTarPerm extractEntry region-usage-json/alt-ww.json
+1203 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/caniuse-db-e78e4ec3/node_modules is being purged
+1204 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/caniuse-db-e78e4ec3/node_modules
+1205 silly doParallel preinstall 6
+1206 silly preinstall caniuse-db@1.0.30000601 /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/caniuse-db-e78e4ec3
+1207 info lifecycle caniuse-db@1.0.30000601~preinstall: caniuse-db@1.0.30000601
+1208 silly preinstall browserslist@1.4.0 /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/browserslist-72eb2973
+1209 info lifecycle browserslist@1.4.0~preinstall: browserslist@1.4.0
+1210 silly preinstall normalize-range@0.1.2 /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/normalize-range-9fe403e6
+1211 info lifecycle normalize-range@0.1.2~preinstall: normalize-range@0.1.2
+1212 silly preinstall num2fraction@1.2.2 /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/num2fraction-eaa4d5af
+1213 info lifecycle num2fraction@1.2.2~preinstall: num2fraction@1.2.2
+1214 silly preinstall postcss-value-parser@3.3.0 /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/postcss-value-parser-894f0b44
+1215 info lifecycle postcss-value-parser@3.3.0~preinstall: postcss-value-parser@3.3.0
+1216 silly preinstall autoprefixer@6.5.4 /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging/autoprefixer-2d620b90
+1217 info lifecycle autoprefixer@6.5.4~preinstall: autoprefixer@6.5.4
+1218 silly lifecycle caniuse-db@1.0.30000601~preinstall: no script for preinstall, continuing
+1219 silly lifecycle browserslist@1.4.0~preinstall: no script for preinstall, continuing
+1220 silly lifecycle normalize-range@0.1.2~preinstall: no script for preinstall, continuing
+1221 silly lifecycle num2fraction@1.2.2~preinstall: no script for preinstall, continuing
+1222 silly lifecycle postcss-value-parser@3.3.0~preinstall: no script for preinstall, continuing
+1223 silly lifecycle autoprefixer@6.5.4~preinstall: no script for preinstall, continuing
+1224 silly doReverseSerial remove 0
+1225 silly doSerial move 0
+1226 silly doSerial finalize 6
+1227 silly finalize /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/caniuse-db
+1228 silly finalize /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/browserslist
+1229 silly finalize /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/normalize-range
+1230 silly finalize /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/num2fraction
+1231 silly finalize /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/postcss-value-parser
+1232 silly finalize /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/autoprefixer
+1233 silly doSerial build 6
+1234 silly build caniuse-db@1.0.30000601
+1235 info linkStuff caniuse-db@1.0.30000601
+1236 silly linkStuff caniuse-db@1.0.30000601 has /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules as its parent node_modules
+1237 verbose linkBins caniuse-db@1.0.30000601
+1238 verbose linkMans caniuse-db@1.0.30000601
+1239 silly build browserslist@1.4.0
+1240 info linkStuff browserslist@1.4.0
+1241 silly linkStuff browserslist@1.4.0 has /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules as its parent node_modules
+1242 verbose linkBins browserslist@1.4.0
+1243 verbose link bins [ { browserslist: './cli.js' },
+1243 verbose link bins   '/media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.bin',
+1243 verbose link bins   false ]
+1244 verbose linkMans browserslist@1.4.0
+1245 silly gentlyRm /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.bin/browserslist is being purged
+1246 verbose gentlyRm don't care about contents; nuking /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.bin/browserslist
+1247 verbose unlock done using /home/rico/.npm/_locks/staging-2ac1ea61f794f1ca.lock for /media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.staging
+1248 silly rollbackFailedOptional Starting
+1249 silly rollbackFailedOptional Finishing
+1250 silly runTopLevelLifecycles Starting
+1251 silly runTopLevelLifecycles Finishing
+1252 silly install printInstalled
+1253 warn optional Skipping failed optional dependency /chokidar/fsevents:
+1254 warn notsup Not compatible with your operating system or architecture: fsevents@1.0.15
+1255 warn travel-site@1.0.0 No description
+1256 warn travel-site@1.0.0 No repository field.
+1257 warn travel-site@1.0.0 No license field.
+1258 verbose stack Error: EROFS: read-only file system, symlink '../browserslist/cli.js' -> '/media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.bin/browserslist'
+1258 verbose stack     at Error (native)
+1259 verbose cwd /media/sf_testapps/mastering-the-modern-workflow/travel-site
+1260 error Linux 4.4.0-53-generic
+1261 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "autoprefixer" "--save-dev"
+1262 error node v4.2.6
+1263 error npm  v3.5.2
+1264 error path ../browserslist/cli.js
+1265 error code EROFS
+1266 error errno -30
+1267 error syscall symlink
+1268 error rofs EROFS: read-only file system, symlink '../browserslist/cli.js' -> '/media/sf_testapps/mastering-the-modern-workflow/travel-site/node_modules/.bin/browserslist'
+1269 error rofs This is most likely not a problem with npm itself
+1269 error rofs and is related to the file system being read-only.
+1269 error rofs
+1269 error rofs Often virtualized file systems, or other file systems
+1269 error rofs that don't support symlinks, give this error.
+1270 verbose exit [ -30, true ]
