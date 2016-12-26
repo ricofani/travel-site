@@ -774,7 +774,7 @@ a {
 
 @media (min-width: 530px) {
 
-  .section-title {
+  .section-title__icon {
     display: inline-block;
     margin-right: 0.5rem;
     margin-left: 0;
