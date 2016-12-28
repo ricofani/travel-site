@@ -5,6 +5,7 @@ var postcssSimpleVars = require( 'postcss-simple-vars' );
 var postcssNested = require( 'postcss-nested' );
 var postcssImport = require( 'postcss-import' );
 var postcssMixins = require( 'postcss-mixins' );
+var postcssHexrgba = require( 'postcss-hexrgba' );
 
 gulp.task( 'styles', function()
 {
@@ -14,6 +15,7 @@ gulp.task( 'styles', function()
         postcssMixins,
         postcssSimpleVars,
         postcssNested,
+        postcssHexrgba,
         autoprefixer
     ] ) )
     .on( 'error', function( errorInfo )
